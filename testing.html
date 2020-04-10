@@ -33,87 +33,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo.png">
 	<style>
-	/* Effect 8 */
-.hi-icon-effect-8 .hi-icon {
-	background: rgba(255,255,255,0.1);
-	-webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
-	-moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
-	transition: transform ease-out 0.1s, background 0.2s;
-}
-
-.hi-icon-effect-8 .hi-icon:after {
-	top: 0;
-	left: 0;
-	padding: 0;
-	z-index: -1;
-	box-shadow: 0 0 0 2px rgba(255,255,255,0.1);
-	opacity: 0;
-	-webkit-transform: scale(0.9);
-	-moz-transform: scale(0.9);
-	-ms-transform: scale(0.9);
-	transform: scale(0.9);
-}
-
-.hi-icon-effect-8 .hi-icon:hover {
-	background: rgba(255,255,255,0.05);
-	-webkit-transform: scale(0.93);
-	-moz-transform: scale(0.93);
-	-ms-transform: scale(0.93);
-	transform: scale(0.93);
-	color: #fff;
-}
-
-.hi-icon-effect-8 .hi-icon:hover:after {
-	-webkit-animation: sonarEffect 1.3s ease-out 75ms;
-	-moz-animation: sonarEffect 1.3s ease-out 75ms;
-	animation: sonarEffect 1.3s ease-out 75ms;
-}
-
-@-webkit-keyframes sonarEffect {
-	0% {
-		opacity: 0.3;
-	}
-	40% {
-		opacity: 0.5;
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
-	}
-	100% {
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
-		-webkit-transform: scale(1.5);
-		opacity: 0;
-	}
-}
-@-moz-keyframes sonarEffect {
-	0% {
-		opacity: 0.3;
-	}
-	40% {
-		opacity: 0.5;
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
-	}
-	100% {
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
-		-moz-transform: scale(1.5);
-		opacity: 0;
-	}
-}
-@keyframes sonarEffect {
-	0% {
-		opacity: 0.3;
-	}
-	40% {
-		opacity: 0.5;
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
-	}
-	100% {
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
-		transform: scale(1.5);
-		opacity: 0;
-	}
-}
-
-	
-		
 	#customers {
  	 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	  border-collapse: collapse;
@@ -224,38 +143,41 @@
         </div>
     </section>
     <!-- breadcrumb start-->
+    <!-- Director's Message part start -->
+
+    <section class="section_padding">
+	<div class="container">
+		<div class="col-lg-12">
+			<h2 style="text-align:left">From Director's Desk</h2>
+			<hr class="divider dark my-12" style="border: 0.5px solid black;">
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<h3><b>Prof. B S Murti</b><br>
+				Our Mentor Director
+				</h3>
+				<hr class="divider dark my-4" style="border: 1px solid black;">
+				<h4>Director at Indian Institue of Technology Hyderabad.<br>
+				    Professor at Department of Metallurgical and Materials Engineering IITH
+				</h4> 
+			</div>
+			<div class="col-lg-6 col-sm-7">
+				<h4>
+				We are proud of preparing dynamic leaders, who make a difference to the world, with the skills 					that are nurtured here for a better tomorrow. As an institute that has completed only 11 years of 					its existence, it is gratifying to note that we are doing well and are almost on par with some of 					the first generation IITs. With the NIRF ranking of 8 among all the engineering institutes in the 					country and with QS Asia BRICS ranking of 94, we stand tall. This is essentially due to over 200 					dynamic young faculty of the institute with an average age of 39, who work hard and take up 					challenges without the fear of failure, making IITH at the forefront of R&D innovations. A healthy 					faculty to student ratio of 1:14 and a good mix of UG and PG program with UG to PG to PhD ratio of 					40:30:30, makes IITH a unique place for teaching and research.
+
+				</h4>
+			</div>
+			<div class="col-lg-3 col-sm-5">
+				<img src="https://www.iith.ac.in/assets/images/BoG/director_murty.jpg">
+			</div>
+		</div>
+   		<hr class="divider dark my-12" style="border: 0.5px solid black;">
+	</div>
+    </section>
+    <!-- Director's Message Part end -->	
     <!-- about part start-->
     <section class="about_part section_bg section_padding" style="padding-bottom:130px ">
         <div class="container">
-		<div style="padding-bottom:80px">
-		<div class="row">
-			<div class="col-lg-4 col-sm-4 ">
-				<img src="https://www.iith.ac.in/assets/images/BoG/director_murty.jpg" class="card shadow">
-			</div>
-			<div class="col-lg-8 col-sm-8">
-				<hr class="divider dark my-4">
-				<h3>Message from Director</h3>
-				<hr class="divider primary my-12">
-				<h4>Dear Friends,
-Welcome to Indian Institute of Technology Hyderabad.
-
-We are proud of preparing dynamic leaders, who make a difference to the world, with the skills that are nurtured here for a better tomorrow. As an institute that has completed only 11 years of its existence, it is gratifying to note that we are doing well and are almost on par with some of the first generation IITs. With the NIRF ranking of 8 among all the engineering institutes in the country and with QS Asia BRICS ranking of 94, we stand tall. This is essentially due to over 200 dynamic young faculty of the institute with an average age of 39, who work hard and take up challenges without the fear of failure, making IITH at the forefront of R&D innovations. A healthy faculty to student ratio of 1:14 and a good mix of UG and PG program with UG to PG to PhD ratio of 40:30:30, makes IITH a unique place for teaching and research.
-
-The strong research culture at IITH is reflected from around 500 sponsored research projects of Rs. 220 Crores that our faculty members have been handling currently. The number of Scopus indexed publications in the last 5 years are above 3400, which again reflects the thriving research activity. With a strong Japanese collaboration and the support from MHRD, the second phase infrastructure development is in its full swing and is expected to be completed by 2022. This is expected to give a big push to the research activity of the institute. IITH has a strong start up culture with dedicated space for incubation and research park. By the end of second phase we will have about 1.2 lakh sft of space each for the above two activities, which will boost the entrepreneurship activity significantly.
-
-The fractal academics with interdisciplinary approach, with departments such as AI, Climate Change, Engineering sciences provide a unique academic atmosphere at IITH. The BTech program in AI, a minor in entrepreneurship, Executive MTech in Data Science together with the Design and Liberal Arts departments represent the unique and diversified academic fabric. MTech in E-Waste Management & Recycling (together with C-MET) and Energy are some of the new programs being planned from the next academic year, which will add value to the existing academic program.
-
-The campus life is improving on various fronts. The newly introduced mentoring of the students by faculty and alumni is expected to pump in positive energy into students’ lives. We have now a 24x7 hospital on the campus along with the support by specialist doctors visiting the campus regularly. The new supermarket, the 24x7 Nescafe and Amul outlet have made the life of the campus residents better.
-
-We are looking forward to strong collaborations, both academic and industrial, to help us grow stronger. Industry-R&D-Academia tie up on cutting edge technologies is the key for the growth of the country. IITH will play its part proactively in the near future in this direction.
-
-Wishing you all a very happy and prosperous new year,
-
-					B.S. Murty  </h4>
-				<hr class="divider dark my-4">
-			</div>
-		</div>
-		</div>
 <!-- Table is to made at the place of this
 	      <div class="row align-items-center justify-content-between">
                 <div class="col-md-10 col-lg-10">
@@ -273,6 +195,7 @@ Wishing you all a very happy and prosperous new year,
 			</ul></h4>
   -->
 <!-- Table started -->    
+	   <div class="progress-table-wrap">
 		 <table id="customers">
                     <tr>
                         <th >Member Name</th>
@@ -370,16 +293,17 @@ Wishing you all a very happy and prosperous new year,
                         <td style="width:25%"></td>
                         <td style="width:10%">040 - 2301 6101</td>
                     </tr>
-		    <tr>
+<!--		    <tr>
                         <td style="width:30%"> V Venkat Rao</td>
                         <td style="width:20%">Joint Registrar</td>
                         
                         <td style="width:25%"></td>
                         <td style="width:10%">040 - 2301 6152</td>
                     </tr>
-	   
+-->	   
 	    
 		    </table>
+	    </div>
         </div>
     </section>
     <!-- about part start-->
@@ -389,22 +313,14 @@ Wishing you all a very happy and prosperous new year,
             <div class="row justify-content-center">
                 <div class="col-lg-12">
 			<! The footers for the social media accounts>
-			<h1 style="text-align:center;color:white" ">
+			<h1 style="text-align:center ; ">
 			<a href="https://www.youtube.com/channel/UC6aCBD8hLAJzg7V50CEcX3g" class="fa fa-youtube" class="text-info" style="color:white">&nbsp;</a>
 			<a href="https://www.facebook.com/iiitraichur" class="fa fa-facebook" class="text-info" style="color:white">&nbsp;</a>
 			<a href="https://twitter.com/IIITRaichur" class="fa fa-twitter" class="text-info" style="color:white" >&nbsp;</a>
 			<a href="https://www.linkedin.com/showcase/indian-institute-of-information-technology-raichur/" class="fa fa-linkedin" class="text-info" style="color:white">&nbsp;</a>
 			<a href="https://www.instagram.com/iiit_raichur/" class="fa fa-instagram" class="text-info" style="color:white">&nbsp;</a>
-			<a href="mailto:info@iiitr.ac.in" class="fa fa-envelope" class="text-info" style="color:white">&nbsp;</a>
+			<a href="mailto:info@iiitr.ac.in" class="fa fa-envelope" class="text-info" style="color:white">&nbsp;</a>			
 			</h1> 
-			<div class="hi-icon-wrap hi-icon-effect-8">
-					<a href="#set-8" class="hi-icon hi-icon-archive">Archive</a>
-					<a href="#set-8" class="hi-icon hi-icon-chat">Chat</a>
-					<a href="#set-8" class="hi-icon hi-icon-bookmark">Bookmarks</a>
-					<a href="#set-8" class="hi-icon hi-icon-user">User</a>
-					<a href="#set-8" class="hi-icon hi-icon-contract">Contact</a>
-			</div>
-																		      
 			<div class="row">
 			 	<div class="text-center text-light col-lg-6">© 2020 Indian Institute of Information Technology Raichur, Karnataka , India. All rights reserved.
 				</div>
