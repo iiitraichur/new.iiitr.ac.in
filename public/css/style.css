@@ -440,6 +440,9 @@ ul {
   .container {
     max-width: 1170px;
   }
+  .container-fluid{
+    max-width: 100%;
+  }
 }
 
 /* line 253, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
@@ -3569,6 +3572,7 @@ ul {
 .gallery_part .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
+  width: 100%;
 }
 
 /* line 21, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_gallery_part.scss */
