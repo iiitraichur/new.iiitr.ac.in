@@ -59,10 +59,10 @@
 
   var width = $(window).width();
     if(width<991){
-      $("#logo").attr("src","img/logo-black-solid.png");
+      $("#logo").attr("src","./assets/images/logo/logo-black-solid.png");
     }
     else{
-      $("#logo").attr("src","img/logo-blue-desktop.png");
+      $("#logo").attr("src","./assets/images/logo/logo-blue-desktop.png");
     }
 
   $('.slider').slick({

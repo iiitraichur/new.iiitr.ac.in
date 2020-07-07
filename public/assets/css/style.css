@@ -1,3 +1,4 @@
+
 /**************** extend css start ****************/
 
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,400i,500,600,700,800|Roboto");
@@ -5181,7 +5182,7 @@ https://iiitr.netlify.com/about.html
 
 /* line 1, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-  background-image: url("../img/breadcrumb.jpg");
+  background-image: url("../images/breadcrumb.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5278,7 +5279,7 @@ https://iiitr.netlify.com/about.html
 /* line 2, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
 .footer-area {
   background-color: #162b45;
-  background-image: url(../img/footer_overlay.png);
+  background-image: url(../images/footer_overlay.png);
   padding: 40px 0px 0px;
   position: relative;
   margin-top: -10px;
