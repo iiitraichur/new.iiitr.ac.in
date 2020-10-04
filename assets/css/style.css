@@ -1,3 +1,19 @@
+/* page scrollbar start */
+::-webkit-scrollbar {
+	width: px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #c0c0c8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #2C317F;
+}
+
+/* page scrollbar end */
 
 /**************** extend css start ****************/
 
