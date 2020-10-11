@@ -6148,8 +6148,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 365, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
+
 .progress-table .country {
   width: 28.07%;
+} 
+.progress-table .code {
+  width: 25.00%;
 }
 
 /* line 368, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
@@ -6171,6 +6175,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 377, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .progress-table .table-head .serial,
 .progress-table .table-head .country,
+.progress-table .table-head .code,
 .progress-table .table-head .visit,
 .progress-table .table-head .percentage {
   color: #415094;
@@ -6189,6 +6194,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 391, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .progress-table .table-row .serial,
 .progress-table .table-row .country,
+.progress-table .table-row .code,
 .progress-table .table-row .visit,
 .progress-table .table-row .percentage {
   display: flex;
