@@ -1,106 +1,241 @@
 /*============- HOVER CSS Part -=================== */
+
+
 /* Grow Shadow */
+
 .gallery {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow, transform;
-  transition-property: box-shadow, transform;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
-.gallery:hover, .gallery:focus, .gallery:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+
+.gallery:hover,
+.gallery:focus,
+.gallery:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .gallery img {
-  margin-top:5%;
-  margin-bottom:5%;
-  width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 /*-----========== Modal image =============--*/
+
+
 /* Style the Image Used to Trigger the Modal */
+
 #myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {
+    opacity: 0.7;
+}
+
 
 /* The Modal (background) */
+
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
 }
+
 
 /* Modal Content (Image) */
+
 .modal-content {
-  margin: auto;
-  display: block;
-  margin-top: 5%;
-  width: 80%;
-  max-width: 700px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 80%;
+    max-width: 700px;
 }
+
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
+
 #caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
 }
 
+
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
-  animation-name: zoom;
-  animation-duration: 0.6s;
+
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
+
 /* The Close Button */
+
 .close {
-  position: absolute;
-  top: 80%;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+    position: absolute;
+    top: 80%;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
 
+
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+/* ============ FACULTY PAGE =======================*/
+
+.faculty .name-heading {
+    text-shadow: 1px 1px 1px blue;
+}
+
+.faculty h3{
+    padding-top: 10px;
+}
+
+.faculty img {
+    margin: 5%;
+    border-radius: 10%;
+    width: 90%;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 3px 3px 5px 6px #ccc;
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.faculty-contact {
+    font-size: 20px;
+    margin: 5%;
+    padding: 10%;
+    width: 80%;
+}
+
+
+/* Grow Shadow */
+
+.faculty-contact {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.faculty-contact:hover,
+.faculty-contact:focus,
+.faculty-contact:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.faculty-experience{
+    padding: 5%;
+}
+.faculty-experience h4{
+    padding-top: 10px;
+}
+.faculty-education{
+    padding: 5%;
+}
+
+.faculty-education h4{
+    padding-top: 10px;
+}
+
+
+
+/* =============== Home Page Faculty =====================*/
+.home-page-faculty-card{
+    padding:1%;
+    margin:5%;
+    border-radius: 5%;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    background-image: linear-gradient(120deg, #eef5ff 0%, #a1e0ff 100%);
+}
+
+.home-page-faculty-card img{
+    width:80%;
+    /* padding:10%; */
+    margin:10%;
+    border-radius: 50%;
+}
+
+.home-page-faculty-card:hover,.home-page-faculty-card:focus, .home-page-faculty-card:active{
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
 }

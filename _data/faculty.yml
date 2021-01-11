@@ -1,0 +1,19 @@
+- name: Ramesh Kumar Jallu
+  designation: Assistant Professor
+  dept:
+   - CSE
+  imgsrc: ../assets/images/faculty/jally.webp
+  phd: Indian Institute of Technology Guwahati
+  phdLink: https://iitg.ac.in
+  reserchInterest: 
+    - Computational Geometry
+    - Geometric Approximation Algorithms
+    - Graph Theory
+  postdoc: Institute of Computer Science of The Czech Academy of Sciences
+  postdocLink: https://www.cs.cas.cz/
+  mtech: NITK Surathkal
+  alphabet: R
+  email: jallu
+  landline: 
+  office: 
+  profifelink: https://sites.google.com/view/rameshjallu/home

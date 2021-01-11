@@ -11,3 +11,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+page_gen-dirs: true
+
+page_gen:
+  - index_files: false
+    data: 'faculty'
+    template: 'faculty'
+    name: 'email'
+    dir: 'cse'
+    filter: CSE
