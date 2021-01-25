@@ -57,14 +57,6 @@
     }
   });
 
-  var width = $(window).width();
-    if(width<991){
-      $("#logo").attr("src","./assets/images/logo/logo-black-solid.png");
-    }
-    else{
-      $("#logo").attr("src","./assets/images/logo/logo-blue-desktop.png");
-    }
-
   $('.slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,

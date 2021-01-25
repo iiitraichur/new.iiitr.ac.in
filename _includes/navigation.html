@@ -1,59 +1,100 @@
-    <!--::header part start::-->
-    <header class="main_menu">
-        <div class="main_menu_iner">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <a href="index.html"><img src="assets/images/logo_desktop.png" class="navbar-brand" id="logo" ></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					            <i class="fa fa-bars" aria-hidden="true"></i>
-                            </button>
-                            <div class="collapse navbar-collapse main-menu-item justify-content-end" id="navbarSupportedContent" style="margin: 10px 0px;">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                    	    <a class="nav-link" href="index.html" {% if page.url=="/" %} style="color:#fe5c24;font-weight:500;" {% endif %} >Home</a>
-				                    </li>
-                                    
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" {% if page.url=="/about.html" or page.url=="/administration.html" or page.url=="/reach_us.html" or page.url=="/documents.html" %} style="color:#fe5c24;font-weight:500;" {% endif %} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {% if page.url=="/about.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>About</a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="about.html" {% if page.url=="/about.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>About IIIT Raichur</a>
-                                            <a class="dropdown-item" href="administration.html" {% if page.url=="/administration.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Administration</a>
-                                            <a class="dropdown-item" href="reach_us.html" {% if page.url=="/reach_us.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>How to Reach</a>
-                                            <a class="dropdown-item" href="transitcampus.html" {% if page.url=="/transitcampus.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Transit Campus</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" {% if page.url=="/admission.html" or page.url=="/program.html" or page.url=="/curriculum.html" or page.url=="/calendars.html" %} style="color:#fe5c24;font-weight:500;" {% endif %} href="academics.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="admission.html" {% if page.url=="/admission.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Admission</a>
-                                            <a class="dropdown-item" href="program.html" {% if page.url=="/program.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Program</a>
-                    					    <a class="dropdown-item" href="curriculum.html" {% if page.url=="/curriculum.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Curriculum</a>
-					                        <a class="dropdown-item" href="calendars.html" {% if page.url=="/calendars.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Calendars & Timetables</a>
-					                        <a class="dropdown-item" href="https://aims.iiitr.ac.in/iiitraichur/">AIMS</a>
-                                        </div>
-                                    </li>
-				                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" {% if page.url=="/faculty.html" or page.url=="/students.html" %} style="color:#fe5c24;font-weight:500;" {% endif %} href="people.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">People</a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="faculty.html" {% if page.url=="/faculty.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Faculty</a>
-                            			    <a class="dropdown-item" href="students.html" {% if page.url=="students/.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Students</a>	
-                                        </div>
-                                    </li>	
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="careers.html" {% if page.url=="/careers.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Careers</a>
-                                    </li>
-				                    <li class="nav-item">
-                                        <a class="nav-link" href="news.html" {% if page.url=="/news.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}>News</a>
-                                    </li>
-		 
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
+<!--::header part start::-->
+<header class="main_menu">
+    <div class="main_menu_iner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a href="{{ site.baseurl }}/index.html"><img
+                                src="{{ site.baseurl }}/assets/images/logo_desktop.png" class="navbar-brand"
+                                id="logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                        <div class="collapse navbar-collapse main-menu-item justify-content-end"
+                            id="navbarSupportedContent" style="margin: 10px 0px;">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ site.baseurl }}/index.html" {% if page.url=="/" %}
+                                        style="color:#fe5c24;font-weight:500;" {% endif %}>Home</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" {% if page.url=="/about.html" or
+                                        page.url=="/administration.html" or page.url=="/reach_us.html" or
+                                        page.url=="/documents.html" %} style="color:#fe5c24;font-weight:500;" {% endif
+                                        %} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false" {% if page.url=="/about.html" %}
+                                        style="color:#fe5c24;font-weight:500;" {% endif %}>About</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/about.html" {% if
+                                            page.url=="/about.html" %} style="color:#fe5c24;font-weight:500;" {% endif
+                                            %}>About IIIT Raichur</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/administration.html" {% if
+                                            page.url=="/administration.html" %} style="color:#fe5c24;font-weight:500;"
+                                            {% endif %}>Administration</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/reach_us.html" {% if
+                                            page.url=="/reach_us.html" %} style="color:#fe5c24;font-weight:500;" {%
+                                            endif %}>How to Reach</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/transitcampus.html" {% if
+                                            page.url=="/transitcampus.html" %} style="color:#fe5c24;font-weight:500;" {%
+                                            endif %}>Transit Campus</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" {% if page.url=="/admission.html" or
+                                        page.url=="/program.html" or page.url=="/curriculum.html" or
+                                        page.url=="/calendars.html" %} style="color:#fe5c24;font-weight:500;" {% endif
+                                        %} href="academics.html" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/admission.html" {% if
+                                            page.url=="/admission.html" %} style="color:#fe5c24;font-weight:500;" {%
+                                            endif %}>Admission</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/program.html" {% if
+                                            page.url=="/program.html" %} style="color:#fe5c24;font-weight:500;" {% endif
+                                            %}>Program</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/curriculum.html" {% if
+                                            page.url=="/curriculum.html" %} style="color:#fe5c24;font-weight:500;" {%
+                                            endif %}>Curriculum</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/calendars.html" {% if
+                                            page.url=="/calendars.html" %} style="color:#fe5c24;font-weight:500;" {%
+                                            endif %}>Calendars & Timetables</a>
+                                        <a class="dropdown-item" href="https://aims.iiitr.ac.in/iiitraichur/">AIMS</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" {% if page.url=="/faculty.html" or
+                                        page.url=="/students.html" %} style="color:#fe5c24;font-weight:500;" {% endif %}
+                                        href="people.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">People</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/faculty.html" {% if
+                                            page.url=="/faculty.html" %} style="color:#fe5c24;font-weight:500;" {% endif
+                                            %}>Faculty</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/students.html" {% if
+                                            page.url=="students/.html" %} style="color:#fe5c24;font-weight:500;" {%
+                                            endif %}>Students</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ site.baseurl }}/careers.html" {% if
+                                        page.url=="/careers.html" %} style="color:#fe5c24;font-weight:500;" {% endif
+                                        %}>Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ site.baseurl }}/news.html" {% if page.url=="/news.html"
+                                        %} style="color:#fe5c24;font-weight:500;" {% endif %}>News</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- Header part end-->
+    </div>
+</header>
+<!-- Header part end-->

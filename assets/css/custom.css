@@ -186,6 +186,11 @@
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
+    background-color: rgb(66, 130, 250);
+}
+
+.faculty-contact a{
+    color:rgb(134, 236, 223);
 }
 
 .faculty-contact:hover,
@@ -214,7 +219,7 @@
 
 
 /* =============== Home Page Faculty =====================*/
-.home-page-faculty-card{
+/* .home-page-faculty-card{
     padding:1%;
     margin:5%;
     border-radius: 5%;
@@ -229,7 +234,6 @@
 
 .home-page-faculty-card img{
     width:80%;
-    /* padding:10%; */
     margin:10%;
     border-radius: 50%;
 }
@@ -238,4 +242,4 @@
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.025);
     transform: scale(1.025);
-}
+} */
