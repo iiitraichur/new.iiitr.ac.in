@@ -1,6 +1,6 @@
 ---
 layout: section
-title: "News"
+title: "News - Old"
 main_title: "Home"
 ---
 <!-- about part start-->
@@ -11,41 +11,14 @@ main_title: "Home"
 
 			<div class="row" style="margin: 2rem auto">
 
-				<style>
-					.news-page-cards {
-						padding: 2%;
-						margin: 2%;
-
-					}
-
-					.news-page-cards img {
-						transition: 0.3s;
-						margin: 2%;
-					}
-
-					.news-page-cards img:hover {
-						box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-					}
-					.news-page-cards h6{
-						padding-top: 2%;
-						padding-bottom: 2%;
-					}
-				</style>
-
-
 				{% assign count = 0 %}
-
 				{% for post in site.posts %}
-				{% if count == 6 %}
-				{% break %}
-				{% endif %}
+				{% if count > 6 %}
 
 				<div class="col-lg-4">
 					<div class="news-page-cards">
 						<h3>{{ post.title }}</h3>
 						<hr class="highlight">
-
-						<img class="d-block w-100 desk" src="./assets/images/news/{{post.img_1}}" alt="First slide">
 						<h6>{{ post.content }}</h6>
 						<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="{{ post.url | absolute_url }}">
 							<h4>More</h4>
@@ -54,14 +27,16 @@ main_title: "Home"
 					</div>
 
 				</div>
+				{% endif %}
 				{% assign count = count | plus: 1 %}
 				{% endfor %}
 
 				<div class="col-lg-12 text-center">
-					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="./news-more.html">
-						<h4>More</h4>
+					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="./news.html">
+						<h4>New News</h4>
 					</a>
 				</div>
+
 
 			</div>
 		</div>
