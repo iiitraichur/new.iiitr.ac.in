@@ -70,6 +70,27 @@ title: "Home"
 			<h2>Latest Updates</h2>
 			<hr style="margin-left:auto; border: 2px solid blue; width:50px;">
 		</div>
+
+		{% assign count = 0 %}
+
+		{% for post in site.posts %}
+		{% if count == 3 %}
+		{% break %}
+		{% endif %}
+
+		<div class="col-lg-4">
+			<h3>{{ post.title }}</h3>
+			<hr class="divider dark my-4">
+			<img src="./assets/images/news/{{post.img_1}}">
+			<hr class="divider dark my-4">
+			<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="{{ post.url | absolute_url }}">
+				<h4>More</h4>
+			</a>
+		</div>
+
+		{% assign count = count | plus: 1 %}
+		{% endfor %}
+
 		<div class="col-lg-4">
 			<h3>72th Republic Day</h3>
 			<hr class="divider dark my-4">
@@ -78,6 +99,7 @@ title: "Home"
 				normal with flag hosting followed by Cultural events.</h5>
 			<hr class="divider dark my-4">
 		</div>
+
 		<div class="col-lg-4">
 			<h3>Sunshine Session</h3>
 			<hr class="divider dark my-4">
