@@ -243,3 +243,59 @@
     -webkit-transform: scale(1.025);
     transform: scale(1.025);
 } */
+
+
+/*================= page scrollbar start ================*/
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fcd4d4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2C2F7F;
+}
+
+/*================= footer ================*/
+
+.footer-heading {
+    border-bottom: 2px solid white 30%;
+}
+
+a.footer-item:hover,
+a.footer-item:active {
+    font-size: 120%;
+}
+
+a.footer-icon:hover,
+a.footer-icon:active {
+    font-size: 120%;
+}
+
+a.footer-bottom:hover,
+a.footer-bottom:active {
+    font-size: 110%;
+}
+
+@media only screen and (max-width: 600px) {
+    a.footer-bottom {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .footer-links {
+        padding-top: 20px;
+    }
+
+    a.footer-bottom:hover,
+    a.footer-bottom:active {
+        font-size: 110%;
+    }
+}
