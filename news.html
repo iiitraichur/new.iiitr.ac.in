@@ -26,7 +26,8 @@ main_title: "Home"
 					.news-page-cards img:hover {
 						box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 					}
-					.news-page-cards h6{
+
+					.news-page-cards h6 {
 						padding-top: 2%;
 						padding-bottom: 2%;
 					}
@@ -42,14 +43,17 @@ main_title: "Home"
 
 				<div class="col-lg-4">
 					<div class="news-page-cards">
-						<h3>{{ post.title }}</h3>
+						<h3 class="text-center">{{ post.title }}</h3>
 						<hr class="highlight">
 
 						<img class="d-block w-100 desk" src="./assets/images/news/{{post.img_1}}" alt="First slide">
 						<h6>{{ post.content }}</h6>
-						<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="{{ post.url | absolute_url }}">
-							<h4>More</h4>
-						</a>
+						<div class="text-center">
+							<a class="btn btn-light btn-xl js-scroll-trigger shadow"
+								href="{{ post.url | absolute_url }}">
+								<h4>More</h4>
+							</a>
+						</div>
 						<hr>
 					</div>
 
