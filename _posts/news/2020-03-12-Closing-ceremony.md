@@ -1,8 +1,8 @@
 ---
  layout: post	
  title: Closing Ceremony of EBSB Exchange Program
- img_1: ebsb_day_5_7.jpeg
- img_2: ebsb_day_5_4.jpeg
+ img_1: ebsb_day_5_4.jpeg
+ img_2: ebsb_day_5_7.jpeg
  img_3: ebsb_day_5_5.jpeg
  img_4: ebsb_day_5_6.jpeg
 ---
