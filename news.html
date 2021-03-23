@@ -11,166 +11,59 @@ main_title: "Home"
 
 			<div class="row" style="margin: 2rem auto">
 
-				<!--	  {% for post in site.posts %}
-	  
-	  <div class="col-lg-4">          
-		<h3>{{ post.title }}</h3>
-        	<hr class="highlight">
-        	
-		<div id="carouselExampleControls_2" class="carousel slide" data-ride="carousel">
-  				<div class="carousel-inner">
-						<div class="carousel-item active">
-      						<img class="d-block w-100 desk" src="{{ post.image_1 }}" alt="First slide">
-    					</div>
-							<div class="carousel-item">
-      								<img class="d-block w-100 desk " src="{{ post.image_2 }}" alt="Second slide">
-   							</div>
-    						<div class="carousel-item">
-      								<img class="d-block w-100 desk " src="{{ post.image_3 }}" alt="Third slide">
-    						</div>
-							<div class="carousel-item">
-      								<img class="d-block w-100 desk " src="{{ post.image_4 }}" alt="Third slide">
-    						</div>
-						
-							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleControls_2" role="button" data-slide="next">
-    							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    							<span class="sr-only">Next</span>
-							</a>
-  				</div>
-		</div>
-			
-   		<h5>{{ post.content }}</h5><hr>
+				<style>
+					.news-page-cards {
+						padding: 2%;
+						margin: 2%;
 
-	  </div>	      
-	  
-	  {% endfor %}
+					}
 
--->
+					.news-page-cards img {
+						transition: 0.3s;
+						margin: 2%;
+					}
+
+					.news-page-cards img:hover {
+						box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+					}
+
+					.news-page-cards h6 {
+						padding-top: 2%;
+						padding-bottom: 2%;
+					}
+				</style>
+
+
+				{% assign count = 0 %}
+
+				{% for post in site.posts %}
+				{% if count == 6 %}
+				{% break %}
+				{% endif %}
 
 				<div class="col-lg-4">
-					<h3>72th Republic Day</h3>
-					<hr class="highlight">
-					<img src="assets/images/news/02-02-2021/1.webp">
-					<h5><br>
-						Social Distancing and Mask up, IIT Hyderabad and IIIT Raichur celebrated 72th Republic Day in
-						new
-						normal with flag hosting followed by Cultural events.
-					</h5>
-					<hr>
-				</div>
-				<div class="col-lg-4">
-					<h3>Sunshine Session</h3>
-					<hr class="highlight">
-					<img src="assets/images/news/02-02-2021/2.webp">
-					<h5><br>
-						Sunshine, the Counselling Club of IIIT Raichur conducted an interactive and fun session with the
-						batch of 2020
-					</h5>
-					<hr>
-				</div>
-				<div class="col-lg-4">
-					<h3>Rashtirya Ekta Diwas 2020</h3>
-					<hr class="highlight">
-					<div id="carouselExampleControls_6" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block w-100 desk" src="./assets/images/news/30-10-2020/1.jpeg"
-									alt="First slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100 desk " src="./assets/images/news/30-10-2020/2.jpeg"
-									alt="Second slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100 desk " src="./assets/images/news/30-10-2020/3.jpeg"
-									alt="Third slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100 desk " src="./assets/images/news/30-10-2020/4.jpeg"
-									alt="Third slide">
-							</div>
-
-							<a class="carousel-control-prev" href="#carouselExampleControls_6" role="button"
-								data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleControls_6" role="button"
-								data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
+					<div class="news-page-cards">
+						<h3 class="text-center">{{ post.title }}</h3>
+						<h5 class="text-center text-muted">{{post.date | date: "%d %b %Y"}}</h5>
+						<hr class="highlight">
+						<img class="d-block w-100 desk" src="./assets/images/news/{{post.img_1}}" alt="First slide">
+						<h6>{{ post.content }}</h6>
+						<div class="text-center">
+							<a class="btn btn-light btn-xl js-scroll-trigger shadow"
+								href="{{ post.url | absolute_url }}">
+								<h4>More</h4>
 							</a>
 						</div>
+						<hr>
 					</div>
-					<h5>IIIT Raichur observed Rashtirya Ekta Diwas 2020 with a Pledge taken by faculty and staff.</h5>
-					<hr>
+
 				</div>
+				{% assign count = count | plus: 1 %}
+				{% endfor %}
 
-				<div class="col-lg-4">
-					<h3>Vigilance Awareness Week 2020</h3>
-					<hr class="highlight">
-					<div id="carouselExampleControls_5" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block w-100 desk" src="./assets/images/news/28-10-2020/1.jpeg"
-									alt="First slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100 desk " src="./assets/images/news/28-10-2020/2.jpeg"
-									alt="Second slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100 desk " src="./assets/images/news/28-10-2020/3.jpeg"
-									alt="Third slide">
-							</div>
-
-							<a class="carousel-control-prev" href="#carouselExampleControls_5" role="button"
-								data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleControls_5" role="button"
-								data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-						</div>
-					</div>
-					<h5>IIIT Raichur observed Vigilance Awareness Week 2020 (from 27.10.2020 to 02.11.2020) with an
-						Integrity Pledge taken by faculty and staff on 27.10.2020 at 11:00 AM</h5>
-					<hr>
-				</div>
-
-
-				<div class="col-lg-4">
-					<h3>India’s COVID-19 Fight</h3>
-					<hr class="highlight">
-					<img src="./assets/images/news/09-10-2020/covid.jpeg">
-					<h5><br>
-						India’s COVID-19 fight is people driven and gets great strength from our COVID warriors. Our
-						collective efforts have helped saved many lives. We have to continue the momentum and protect
-						our citizens from the virus.
-					</h5>
-					<hr>
-				</div>
-
-				<div class="col-lg-4">
-					<h3>150th Mahatma Gandhi Jayanti </h3>
-					<hr class="highlight">
-					<img src="assets/images/news/02-10-2020/gandhi.jpeg">
-					<h5><br>
-						NSS Club IIT Hyderabad & IIIT Raichur pay tribute to a great leader, the 'FatherOfTheNation',
-						'SymbolofPeace' <b>'Shri MahatmaGandhi’</b>, on his 150th Birth Anniversary.
-					</h5>
-					<hr>
-				</div>
 				<div class="col-lg-12 text-center">
-					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="./news_2.html">
-						<h4>More</h4>
+					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="./news-more.html">
+						<h4>News Archives</h4>
 					</a>
 				</div>
 

@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<style>
+    .news-cards img {
+        margin: 5%;
+        transition: 0.3s;
+    }
+
+    .news-cards img:hover {
+        box-shadow: 0 16px 23px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .news-cards h5 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+</style>
+<div class="container">
+    <div class="row col-lg-12 news-cards">
+        <div class="col-lg-12 ">
+            <h2 class="text-center">{{ page.title }}</h2>
+            <h4 class="text-center">{{page.date | date: "%d %b %Y"}}</h4>
+            <hr style="margin:auto; border: 2px solid blue; width:50px;">
+            <h5>{{ content }}</h5>
+        </div>
+
+
+        <div class="col-lg-6">
+            <img src="{{ site.baseurl }}/assets/images/news/{{ page.img_1 }}">
+        </div>
+        {% if page.img_2 != NULL %}
+        <div class="col-lg-6">
+            <img src="{{ site.baseurl }}/assets/images/news/{{ page.img_2 }}">
+        </div>
+        {% endif %}
+        {% if page.img_3 != NULL %}
+        <div class="col-lg-6">
+            <img src="{{ site.baseurl }}/assets/images/news/{{ page.img_3 }}">
+        </div>
+        {% endif %}
+        {% if page.img_4 != NULL %}
+        <div class="col-lg-6">
+            <img src="{{ site.baseurl }}/assets/images/news/{{ page.img_4 }}">
+        </div>
+        {% endif %}
+        {% if page.img_5 != NULL %}
+        <div class="col-lg-6">
+            <img src="{{ site.baseurl }}/assets/images/news/{{ page.img_5 }}">
+        </div>
+        {% endif %}
+        {% if page.img_6 != NULL %}
+        <div class="col-lg-6">
+            <img src="{{ site.baseurl }}/assets/images/news/{{ page.img_6 }}">
+        </div>
+        {% endif %}
+    </div>
+</div>

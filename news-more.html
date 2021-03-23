@@ -1,0 +1,45 @@
+---
+layout: section
+title: "News - Archives"
+main_title: "Home"
+---
+<!-- about part start-->
+<section class="full-width">
+
+	<section class="jumbotron jumbotron-fluid" style="background-color: white;">
+		<div class="full-width side-gap towers">
+
+			<div class="row" style="margin: 2rem auto">
+
+				{% assign count = 0 %}
+				{% for post in site.posts %}
+				{% if count > 6 %}
+
+				<div class="col-lg-4">
+					<div class="news-page-cards">
+						<h3>{{ post.title }}</h3>
+						<h5 class="text-muted">{{post.date | date: "%d %b %Y"}}</h5>
+						<hr class="highlight">
+						<h6>{{ post.content }}</h6>
+						<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="{{ post.url | absolute_url }}">
+							<h4>More</h4>
+						</a>
+						<hr>
+					</div>
+
+				</div>
+				{% endif %}
+				{% assign count = count | plus: 1 %}
+				{% endfor %}
+
+				<div class="col-lg-12 text-center">
+					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="./news.html">
+						<h4>New News</h4>
+					</a>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+</section><!-- about part start-->
