@@ -74,7 +74,7 @@ title: "Home"
 		{% assign count = 0 %}
 
 		{% for post in site.posts %}
-		{% if count == 3 %}
+		{% if count == 4 %}
 		{% break %}
 		{% endif %}
 
@@ -93,17 +93,6 @@ title: "Home"
 
 		{% assign count = count | plus: 1 %}
 		{% endfor %}
-
-		<div class="col-lg-4">
-			<h3>IIIT Raichur welcomes the new faculty</h3>
-			<hr class="divider dark my-4">
-			<img src="./assets/images/index_page/jallu.jpeg">
-			<h5><br>Ramesh Kumar Jallu, Computer Science Department</h5>
-			<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="/cse/jallu.html">
-				<h4>More</h4>
-			</a>
-			<hr class="divider dark my-4">
-		</div>
 
 		<div class="col-lg-4">
 			<h3>Student Life</h3>
