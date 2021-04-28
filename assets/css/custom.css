@@ -314,8 +314,12 @@ a.footer-bottom:active {
 .index-news-cards {
   padding: 10% 5% 10% 5%;
   margin: 5%;
-  background: rgb(255, 255, 255);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background-image: radial-gradient(
+    circle 1224px at 10.6% 8.8%,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(227, 241, 255) 80.2%
+  );
+  box-shadow: 0 5px 10px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
