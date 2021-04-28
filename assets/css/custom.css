@@ -1,222 +1,208 @@
 /*============- HOVER CSS Part -=================== */
 
-
 /* Grow Shadow */
 
 .gallery {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
 }
 
 .gallery:hover,
 .gallery:focus,
 .gallery:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .gallery img {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 /*-----========== Modal image =============--*/
-
 
 /* Style the Image Used to Trigger the Modal */
 
 #myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #myImg:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
-
 
 /* The Modal (background) */
 
 .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
 }
-
 
 /* Modal Content (Image) */
 
 .modal-content {
-    margin: auto;
-    display: block;
-    margin-top: 5%;
-    width: 80%;
-    max-width: 700px;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  width: 80%;
+  max-width: 700px;
 }
-
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 
 #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
 }
-
 
 /* Add Animation - Zoom in the Modal */
 
 .modal-content,
 #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-    from {
-        transform: scale(0)
-    }
-    to {
-        transform: scale(1)
-    }
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
-
 
 /* The Close Button */
 
 .close {
-    position: absolute;
-    top: 80%;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+  position: absolute;
+  top: 80%;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
-
 
 /* 100% Image Width on Smaller Screens */
 
 @media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
-    }
+  .modal-content {
+    width: 100%;
+  }
 }
-
 
 /* ============ FACULTY PAGE =======================*/
 
 .faculty .name-heading {
-    text-shadow: 1px 1px 1px blue;
+  text-shadow: 1px 1px 1px blue;
 }
 
-.faculty h3{
-    padding-top: 10px;
+.faculty h3 {
+  padding-top: 10px;
 }
 
 .faculty img {
-    margin: 5%;
-    border-radius: 10%;
-    width: 90%;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow: 3px 3px 5px 6px #ccc;
-    /* Firefox 3.5 - 3.6 */
-    box-shadow: 3px 3px 5px 6px #ccc;
-    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  margin: 5%;
+  border-radius: 10%;
+  width: 90%;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc;
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .faculty-contact {
-    font-size: 20px;
-    margin: 5%;
-    padding: 10%;
-    width: 80%;
+  font-size: 20px;
+  margin: 5%;
+  padding: 10%;
+  width: 80%;
 }
-
 
 /* Grow Shadow */
 
 .faculty-contact {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
-    background-color: rgb(66, 130, 250);
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  background-color: rgb(66, 130, 250);
 }
 
-.faculty-contact a{
-    color:rgb(134, 236, 223);
+.faculty-contact a {
+  color: rgb(134, 236, 223);
 }
 
 .faculty-contact:hover,
 .faculty-contact:focus,
 .faculty-contact:active {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-
-.faculty-experience{
-    padding: 5%;
+.faculty-experience {
+  padding: 5%;
 }
-.faculty-experience h4{
-    padding-top: 10px;
+.faculty-experience h4 {
+  padding-top: 10px;
 }
-.faculty-education{
-    padding: 5%;
-}
-
-.faculty-education h4{
-    padding-top: 10px;
+.faculty-education {
+  padding: 5%;
 }
 
-
+.faculty-education h4 {
+  padding-top: 10px;
+}
 
 /* =============== Home Page Faculty =====================*/
 /* .home-page-faculty-card{
@@ -244,58 +230,101 @@
     transform: scale(1.025);
 } */
 
-
 /*================= page scrollbar start ================*/
 ::-webkit-scrollbar {
-    width: 7px;
+  width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #fcd4d4;
+  background: #fcd4d4;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #2C2F7F;
+  background: #2c2f7f;
 }
 
 /*================= footer ================*/
 
 .footer-heading {
-    border-bottom: 2px solid white 30%;
+  border-bottom: 2px solid white 30%;
 }
 
 a.footer-item:hover,
 a.footer-item:active {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 a.footer-icon:hover,
 a.footer-icon:active {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 a.footer-bottom:hover,
 a.footer-bottom:active {
-    font-size: 110%;
+  font-size: 110%;
 }
 
 @media only screen and (max-width: 600px) {
-    a.footer-bottom {
-        font-size: 16px;
-    }
+  a.footer-bottom {
+    font-size: 16px;
+  }
 
-    .title {
-        font-size: 25px;
-    }
+  .title {
+    font-size: 25px;
+  }
 
-    .footer-links {
-        padding-top: 20px;
-    }
+  .footer-links {
+    padding-top: 20px;
+  }
 
-    a.footer-bottom:hover,
-    a.footer-bottom:active {
-        font-size: 110%;
-    }
+  a.footer-bottom:hover,
+  a.footer-bottom:active {
+    font-size: 110%;
+  }
+}
+
+/* ============ HOVER BUTTON =================== */
+.hover-button {
+  margin: 5%;
+  width: fit-content;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(49, 47, 161, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.hover-button:hover,
+.hover-button:focus,
+.hover-button:active {
+  box-shadow: inset 0 0 0 4px #2b2d7f, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+/* ===================== NEWS INDEX CARDS ================ */
+.index-news-cards {
+  padding: 10% 5% 10% 5%;
+  margin: 5%;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.index-news-cards p {
+  margin: 15px;
+  overflow: hidden;
+  max-height: 140px;
+  text-overflow: ellipsis;
 }
