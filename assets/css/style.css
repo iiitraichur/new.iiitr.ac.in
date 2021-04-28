@@ -10,136 +10,136 @@
 
 /**************** extend css start ****************/
 /**************** common css start ****************/
-/* line 3, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 3, */
 body {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
 }
 
-/* line 9, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 9, */
 .message_submit_form:focus {
   outline: none;
 }
 
-/* line 12, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 12, */
 input:hover, input:focus {
   outline: none !important;
 }
 
-/* line 15, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 15, */
 .gray_bg {
   background-color: #f7f7f7;
 }
 
-/* line 18, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 18, */
 .section_padding {
   padding: 30px 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 18, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 18, */
   .section_padding {
     padding: 80px 0px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 18, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 18, */
   .section_padding {
     padding: 70px 0px;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 18, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 18, */
   .section_padding {
     padding: 70px 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 18, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 18, */
   .section_padding {
     padding: 70px 0px;
   }
 }
 
-/* line 33, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 33, */
 .single_padding_top {
   padding-top: 130px !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 33, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 33, */
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 33, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 33, */
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 33, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 33, */
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 33, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 33, */
   .single_padding_top {
     padding-top: 80px !important;
   }
 }
 
-/* line 48, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 48, */
 .padding_top {
   padding-top: 130px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 48, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 48, */
   .padding_top {
     padding-top: 80px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 48, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 48, */
   .padding_top {
     padding-top: 70px;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 48, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 48, */
   .padding_top {
     padding-top: 70px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 48, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 48, */
   .padding_top {
     padding-top: 70px;
   }
 }
 
-/* line 63, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 63, */
 a {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 66, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 66, */
 a:hover {
   color: #ff7e5f;
   text-decoration: none;
@@ -147,23 +147,23 @@ a:hover {
   transition: 0.5s;
 }
 
-/* line 74, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 74, */
 h1, h2, h3, h4, h5, h6 {
   color: #191d34;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/* line 78, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 78, */
 p {
   color: #777;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.8;
   font-size: 16px;
   margin-bottom: 0px;
   font-family: 300;
 }
 
-/* line 87, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 87, */
 h2 {
   font-size: 44px;
   line-height: 28px;
@@ -173,7 +173,7 @@ h2 {
 }
 
 @media (max-width: 576px) {
-  /* line 87, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 87, */
   h2 {
     font-size: 22px;
     line-height: 25px;
@@ -181,38 +181,38 @@ h2 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 87, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 87, */
   h2 {
     font-size: 24px;
     line-height: 25px;
   }
 }
 
-/* line 104, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 104, */
 h3 {
   font-size: 24px;
   line-height: 25px;
 }
 
 @media (max-width: 576px) {
-  /* line 104, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 104, */
   h3 {
     font-size: 20px;
   }
 }
 
-/* line 114, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 114, */
 h5 {
   font-size: 18px;
   line-height: 22px;
 }
 
-/* line 119, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 119, */
 img {
   max-width: 100%;
 }
 
-/* line 122, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 122, */
 a:focus, .button:focus, button:focus, .btn:focus {
   text-decoration: none;
   outline: none;
@@ -221,26 +221,26 @@ a:focus, .button:focus, button:focus, .btn:focus {
   transition: 1s;
 }
 
-/* line 129, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 129, */
 .section_tittle {
   margin-bottom: 94px;
 }
 
 @media (max-width: 991px) {
-  /* line 129, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 129, */
   .section_tittle {
     margin-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 129, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 129, */
   .section_tittle {
     margin-bottom: 50px;
   }
 }
 
-/* line 139, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 139, */
 .section_tittle h2 {
   font-size: 50px;
   color: #191d34;
@@ -249,7 +249,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
   position: relative;
 }
 
-/* line 145, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 145, */
 .section_tittle h2:after {
   position: absolute;
   content: "";
@@ -261,7 +261,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 @media (max-width: 576px) {
-  /* line 139, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 139, */
   .section_tittle h2 {
     font-size: 35px;
     line-height: 45px;
@@ -269,7 +269,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 139, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 139, */
   .section_tittle h2 {
     font-size: 35px;
     line-height: 35px;
@@ -277,7 +277,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 139, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 139, */
   .section_tittle h2 {
     font-size: 35px;
     line-height: 45px;
@@ -285,150 +285,150 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 139, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 139, */
   .section_tittle h2 {
     font-size: 35px;
     line-height: 40px;
   }
 }
 
-/* line 171, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 171, */
 .section_tittle p {
   color: #777;
   font-weight: 400;
 }
 
-/* line 176, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 176, */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 181, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 181, */
 .mb_110 {
   margin-bottom: 110px;
 }
 
 @media (max-width: 576px) {
-  /* line 181, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 181, */
   .mb_110 {
     margin-bottom: 220px;
   }
 }
 
-/* line 188, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 188, */
 .mt_130 {
   margin-top: 130px;
 }
 
 @media (max-width: 576px) {
-  /* line 188, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 188, */
   .mt_130 {
     margin-top: 70px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 188, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 188, */
   .mt_130 {
     margin-top: 70px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 188, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 188, */
   .mt_130 {
     margin-top: 70px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 188, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 188, */
   .mt_130 {
     margin-top: 70px;
   }
 }
 
-/* line 203, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 203, */
 .mb_130 {
   margin-bottom: 130px;
 }
 
 @media (max-width: 576px) {
-  /* line 203, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 203, */
   .mb_130 {
     margin-bottom: 70px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 203, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 203, */
   .mb_130 {
     margin-bottom: 70px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 203, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 203, */
   .mb_130 {
     margin-bottom: 70px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 203, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 203, */
   .mb_130 {
     margin-bottom: 70px;
   }
 }
 
-/* line 218, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 218, */
 .pt_100 {
   padding-top: 100px;
 }
 
 @media (max-width: 576px) {
-  /* line 218, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 218, */
   .pt_100 {
     padding-top: 30px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 218, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 218, */
   .pt_100 {
     padding-top: 30px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 218, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 218, */
   .pt_100 {
     padding-top: 30px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 218, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 218, */
   .pt_100 {
     padding-top: 30px;
   }
 }
 
-/* line 234, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 234, */
 .padding_less_40 {
   margin-bottom: -50px;
 }
 
-/* line 237, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 237, */
 .z_index {
   z-index: 9 !important;
   position: relative;
 }
 
 @media (max-width: 576px) {
-  /* line 243, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 243, */
   .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
@@ -436,7 +436,7 @@ ul {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 3640px) {
-  /* line 249, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+  /* line 249, */
   .container {
     max-width: 1170px;
   }
@@ -445,7 +445,7 @@ ul {
   }
 }
 
-/* line 253, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
+/* line 253, */
 .section_bg {
   background-color: #f7f7f7;
 }
@@ -680,12 +680,12 @@ ul {
 ============================================================================================ */
 /* Start Blog Area css
 ============================================================================================ */
-/* line 5, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 5,  */
 .latest-blog-area .area-heading {
   margin-bottom: 70px;
 }
 
-/* line 10, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 10,  */
 .blog_area a {
   color: #666666 !important;
   text-decoration: none;
@@ -693,7 +693,7 @@ ul {
   transition: 0.5s;
 }
 
-/* line 14, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 14,  */
 .blog_area a:hover, .blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #feb47b 0%, #ff7e5f 99%);
   -webkit-background-clip: text;
@@ -703,24 +703,24 @@ ul {
   transition: 0.5s;
 }
 
-/* line 24, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 24,  */
 .single-blog {
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-/* line 28, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 28,  */
 .single-blog:hover {
   box-shadow: 0px 10px 20px 0px rgba(42, 34, 123, 0.1);
 }
 
-/* line 32, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 32,  */
 .single-blog .thumb {
   overflow: hidden;
   position: relative;
 }
 
-/* line 36, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 36,  */
 .single-blog .thumb:after {
   content: '';
   position: absolute;
@@ -734,20 +734,20 @@ ul {
   transition: 0.5s;
 }
 
-/* line 49, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 49,  */
 .single-blog h4 {
   border-bottom: 1px solid #dfdfdf;
   padding-bottom: 34px;
   margin-bottom: 25px;
 }
 
-/* line 56, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 56,  */
 .single-blog a {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* line 66, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 66,  */
 .single-blog .date {
   color: #666666;
   text-align: left;
@@ -756,7 +756,7 @@ ul {
   font-weight: 300;
 }
 
-/* line 74, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 74,  */
 .single-blog .tag {
   text-align: left;
   display: inline-block;
@@ -767,7 +767,7 @@ ul {
   position: relative;
 }
 
-/* line 84, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 84,  */
 .single-blog .tag:after {
   content: '';
   position: absolute;
@@ -779,40 +779,40 @@ ul {
 }
 
 @media (max-width: 1199px) {
-  /* line 74, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 74,  */
   .single-blog .tag {
     margin-right: 8px;
   }
-  /* line 98, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 98,  */
   .single-blog .tag:after {
     display: none;
   }
 }
 
-/* line 104, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 104,  */
 .single-blog .likes {
   margin-right: 16px;
 }
 
 @media (max-width: 800px) {
-  /* line 24, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 24,  */
   .single-blog {
     margin-bottom: 30px;
   }
 }
 
-/* line 112, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 112,  */
 .single-blog .single-blog-content {
   padding: 30px;
 }
 
-/* line 116, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 116,  */
 .single-blog .single-blog-content .meta-bottom p {
   font-size: 13px;
   font-weight: 300;
 }
 
-/* line 121, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 121,  */
 .single-blog .single-blog-content .meta-bottom i {
   color: #fdcb9e;
   font-size: 13px;
@@ -820,13 +820,13 @@ ul {
 }
 
 @media (max-width: 1199px) {
-  /* line 112, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 112,  */
   .single-blog .single-blog-content {
     padding: 15px;
   }
 }
 
-/* line 135, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 135,  */
 .single-blog:hover .thumb:after {
   opacity: .7;
   -webkit-transition: 0.5s;
@@ -834,25 +834,25 @@ ul {
 }
 
 @media (max-width: 1199px) {
-  /* line 143, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 143,  */
   .single-blog h4 {
     transition: all 300ms linear 0s;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 14px;
     margin-bottom: 12px;
   }
-  /* line 149, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 149,  */
   .single-blog h4 a {
     font-size: 18px;
   }
 }
 
-/* line 157, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 157,  */
 .full_image.single-blog {
   position: relative;
 }
 
-/* line 160, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 160,  */
 .full_image.single-blog .single-blog-content {
   position: absolute;
   left: 35px;
@@ -864,13 +864,13 @@ ul {
 }
 
 @media (min-width: 992px) {
-  /* line 160, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 160,  */
   .full_image.single-blog .single-blog-content {
     bottom: 100px;
   }
 }
 
-/* line 179, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 179,  */
 .full_image.single-blog h4 {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -878,18 +878,18 @@ ul {
   padding-bottom: 5px;
 }
 
-/* line 185, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 185,  */
 .full_image.single-blog a {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* line 195, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 195,  */
 .full_image.single-blog .date {
   color: #fff;
 }
 
-/* line 200, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 200,  */
 .full_image.single-blog:hover .single-blog-content {
   opacity: 1;
   visibility: visible;
@@ -901,18 +901,18 @@ ul {
 ============================================================================================ */
 /* Latest Blog Area css
 ============================================================================================ */
-/* line 224, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 224,  */
 .l_blog_item .l_blog_text .date {
   margin-top: 24px;
   margin-bottom: 15px;
 }
 
-/* line 228, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 228,  */
 .l_blog_item .l_blog_text .date a {
   font-size: 12px;
 }
 
-/* line 234, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 234,  */
 .l_blog_item .l_blog_text h4 {
   font-size: 18px;
   border-bottom: 1px solid #eeeeee;
@@ -922,7 +922,7 @@ ul {
   transition: 0.5s;
 }
 
-/* line 247, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 247,  */
 .l_blog_item .l_blog_text p {
   margin-bottom: 0px;
   padding-top: 20px;
@@ -932,13 +932,13 @@ ul {
 ============================================================================================ */
 /* Causes Area css
 ============================================================================================ */
-/* line 263, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 263,  */
 .causes_slider .owl-dots {
   text-align: center;
   margin-top: 80px;
 }
 
-/* line 267, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 267,  */
 .causes_slider .owl-dots .owl-dot {
   height: 14px;
   width: 14px;
@@ -947,22 +947,22 @@ ul {
   margin-right: 7px;
 }
 
-/* line 274, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 274,  */
 .causes_slider .owl-dots .owl-dot:last-child {
   margin-right: 0px;
 }
 
-/* line 285, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 285,  */
 .causes_item {
   background: #fff;
 }
 
-/* line 288, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 288,  */
 .causes_item .causes_img {
   position: relative;
 }
 
-/* line 291, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 291,  */
 .causes_item .causes_img .c_parcent {
   position: absolute;
   bottom: 0px;
@@ -972,7 +972,7 @@ ul {
   background: rgba(255, 255, 255, 0.5);
 }
 
-/* line 299, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 299,  */
 .causes_item .causes_img .c_parcent span {
   width: 70%;
   height: 3px;
@@ -981,7 +981,7 @@ ul {
   bottom: 0px;
 }
 
-/* line 307, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 307,  */
 .causes_item .causes_img .c_parcent span:before {
   content: "75%";
   position: absolute;
@@ -991,12 +991,12 @@ ul {
   padding: 0px 5px;
 }
 
-/* line 320, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 320,  */
 .causes_item .causes_text {
   padding: 30px 35px 40px 30px;
 }
 
-/* line 323, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 323,  */
 .causes_item .causes_text h4 {
   font-size: 18px;
   font-weight: 600;
@@ -1004,7 +1004,7 @@ ul {
   cursor: pointer;
 }
 
-/* line 336, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 336,  */
 .causes_item .causes_text p {
   font-size: 14px;
   line-height: 24px;
@@ -1012,7 +1012,7 @@ ul {
   margin-bottom: 0px;
 }
 
-/* line 346, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 346,  */
 .causes_item .causes_bottom a {
   width: 50%;
   border: 1px solid;
@@ -1024,7 +1024,7 @@ ul {
   font-weight: 500;
 }
 
-/* line 358, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 358,  */
 .causes_item .causes_bottom a + a {
   border-color: #eeeeee;
   background: #fff;
@@ -1034,51 +1034,51 @@ ul {
 /* End Causes Area css
 ============================================================================================ */
 /*================= latest_blog_area css =============*/
-/* line 374, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 374,  */
 .latest_blog_area {
   background: #f9f9ff;
 }
 
-/* line 378, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 378,  */
 .single-recent-blog-post {
   margin-bottom: 30px;
 }
 
-/* line 381, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 381,  */
 .single-recent-blog-post .thumb {
   overflow: hidden;
 }
 
-/* line 384, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 384,  */
 .single-recent-blog-post .thumb img {
   transition: all 0.7s linear;
 }
 
-/* line 389, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 389,  */
 .single-recent-blog-post .details {
   padding-top: 30px;
 }
 
-/* line 392, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 392,  */
 .single-recent-blog-post .details .sec_h4 {
   line-height: 24px;
   padding: 10px 0px 13px;
   transition: all 0.3s linear;
 }
 
-/* line 403, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 403,  */
 .single-recent-blog-post .date {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
 }
 
-/* line 410, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 410,  */
 .single-recent-blog-post:hover img {
   transform: scale(1.23) rotate(10deg);
 }
 
-/* line 417, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 417,  */
 .tags .tag_btn {
   font-size: 12px;
   font-weight: 500;
@@ -1089,20 +1089,20 @@ ul {
   text-align: center;
 }
 
-/* line 431, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 431,  */
 .tags .tag_btn + .tag_btn {
   margin-left: 2px;
 }
 
 /*========= blog_categorie_area css ===========*/
-/* line 438, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 438,  */
 .blog_categorie_area {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 @media (min-width: 900px) {
-  /* line 438, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 438,  */
   .blog_categorie_area {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -1110,26 +1110,26 @@ ul {
 }
 
 @media (min-width: 1100px) {
-  /* line 438, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 438,  */
   .blog_categorie_area {
     padding-top: 120px;
     padding-bottom: 120px;
   }
 }
 
-/* line 454, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 454,  */
 .categories_post {
   position: relative;
   text-align: center;
   cursor: pointer;
 }
 
-/* line 459, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 459,  */
 .categories_post img {
   max-width: 100%;
 }
 
-/* line 463, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 463,  */
 .categories_post .categories_details {
   position: absolute;
   top: 20px;
@@ -1144,7 +1144,7 @@ ul {
   justify-content: center;
 }
 
-/* line 476, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 476,  */
 .categories_post .categories_details h5 {
   margin-bottom: 0px;
   font-size: 18px;
@@ -1154,7 +1154,7 @@ ul {
   position: relative;
 }
 
-/* line 494, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 494,  */
 .categories_post .categories_details p {
   font-weight: 300;
   font-size: 14px;
@@ -1162,7 +1162,7 @@ ul {
   margin-bottom: 0px;
 }
 
-/* line 501, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 501,  */
 .categories_post .categories_details .border_line {
   margin: 10px 0px;
   background: #fff;
@@ -1170,46 +1170,46 @@ ul {
   height: 1px;
 }
 
-/* line 510, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 510,  */
 .categories_post:hover .categories_details {
   background: rgba(222, 99, 32, 0.85);
 }
 
 /*============ blog_left_sidebar css ==============*/
-/* line 525, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 525,  */
 .blog_item {
   margin-bottom: 50px;
 }
 
-/* line 529, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 529,  */
 .blog_details {
   padding: 30px 0 20px 10px;
   box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 }
 
 @media (min-width: 768px) {
-  /* line 529, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 529,  */
   .blog_details {
     padding: 60px 30px 35px 35px;
   }
 }
 
-/* line 537, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 537,  */
 .blog_details p {
   margin-bottom: 30px;
 }
 
-/* line 541, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 541,  */
 .blog_details a {
   color: #ff8b23;
 }
 
-/* line 544, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 544,  */
 .blog_details a:hover {
   color: #fe5c24;
 }
 
-/* line 549, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 549,  */
 .blog_details h2 {
   font-size: 18px;
   font-weight: 600;
@@ -1217,44 +1217,44 @@ ul {
 }
 
 @media (min-width: 768px) {
-  /* line 549, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 549,  */
   .blog_details h2 {
     font-size: 24px;
     margin-bottom: 15px;
   }
 }
 
-/* line 563, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 563,  */
 .blog-info-link li {
   float: left;
   font-size: 14px;
 }
 
-/* line 567, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 567,  */
 .blog-info-link li a {
   color: #999999;
 }
 
-/* line 571, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 571,  */
 .blog-info-link li i,
 .blog-info-link li span {
   font-size: 13px;
   margin-right: 5px;
 }
 
-/* line 577, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 577,  */
 .blog-info-link li::after {
   content: "|";
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 583, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 583,  */
 .blog-info-link li:last-child::after {
   display: none;
 }
 
-/* line 588, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 588,  */
 .blog-info-link::after {
   content: "";
   display: block;
@@ -1262,12 +1262,12 @@ ul {
   display: table;
 }
 
-/* line 596, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 596,  */
 .blog_item_img {
   position: relative;
 }
 
-/* line 599, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 599,  */
 .blog_item_img .blog_item_date {
   position: absolute;
   bottom: -10px;
@@ -1280,7 +1280,7 @@ ul {
 }
 
 @media (min-width: 768px) {
-  /* line 599, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 599,  */
   .blog_item_img .blog_item_date {
     bottom: -20px;
     left: 40px;
@@ -1288,7 +1288,7 @@ ul {
   }
 }
 
-/* line 615, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 615,  */
 .blog_item_img .blog_item_date h3 {
   font-size: 22px;
   font-weight: 600;
@@ -1298,13 +1298,13 @@ ul {
 }
 
 @media (min-width: 768px) {
-  /* line 615, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 615,  */
   .blog_item_img .blog_item_date h3 {
     font-size: 30px;
   }
 }
 
-/* line 627, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 627,  */
 .blog_item_img .blog_item_date p {
   font-size: 18px;
   margin-bottom: 0;
@@ -1312,19 +1312,19 @@ ul {
 }
 
 @media (min-width: 768px) {
-  /* line 627, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 627,  */
   .blog_item_img .blog_item_date p {
     font-size: 18px;
   }
 }
 
-/* line 647, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 647,  */
 .blog_right_sidebar .widget_title {
   font-size: 20px;
   margin-bottom: 40px;
 }
 
-/* line 652, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 652,  */
 .blog_right_sidebar .widget_title::after {
   content: "";
   display: block;
@@ -1332,19 +1332,19 @@ ul {
   border-bottom: 1px solid #f0e9ff;
 }
 
-/* line 660, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 660,  */
 .blog_right_sidebar .single_sidebar_widget {
   background: #fbf9ff;
   padding: 30px;
   margin-bottom: 30px;
 }
 
-/* line 664, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 664,  */
 .blog_right_sidebar .single_sidebar_widget .btn_1 {
   margin-top: 0px;
 }
 
-/* line 672, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 672,  */
 .blog_right_sidebar .search_widget .form-control {
   height: 50px;
   border-color: #f0e9ff;
@@ -1355,19 +1355,19 @@ ul {
   border-right: 0;
 }
 
-/* line 681, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 681,  */
 .blog_right_sidebar .search_widget .form-control::placeholder {
   color: #999999;
 }
 
-/* line 685, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 685,  */
 .blog_right_sidebar .search_widget .form-control:focus {
   border-color: #f0e9ff;
   outline: 0;
   box-shadow: none;
 }
 
-/* line 694, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 694,  */
 .blog_right_sidebar .search_widget .input-group button {
   background: #fff;
   border-left: 0;
@@ -1376,14 +1376,14 @@ ul {
   border-left: 0;
 }
 
-/* line 701, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 701,  */
 .blog_right_sidebar .search_widget .input-group button i,
 .blog_right_sidebar .search_widget .input-group button span {
   font-size: 14px;
   color: #999999;
 }
 
-/* line 713, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 713,  */
 .blog_right_sidebar .newsletter_widget .form-control {
   height: 50px;
   border-color: #f0e9ff;
@@ -1393,19 +1393,19 @@ ul {
   border-radius: 0;
 }
 
-/* line 722, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 722,  */
 .blog_right_sidebar .newsletter_widget .form-control::placeholder {
   color: #999999;
 }
 
-/* line 726, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 726,  */
 .blog_right_sidebar .newsletter_widget .form-control:focus {
   border-color: #f0e9ff;
   outline: 0;
   box-shadow: none;
 }
 
-/* line 735, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 735,  */
 .blog_right_sidebar .newsletter_widget .input-group button {
   background: #fff;
   border-left: 0;
@@ -1414,50 +1414,50 @@ ul {
   border-left: 0;
 }
 
-/* line 742, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 742,  */
 .blog_right_sidebar .newsletter_widget .input-group button i,
 .blog_right_sidebar .newsletter_widget .input-group button span {
   font-size: 14px;
   color: #999999;
 }
 
-/* line 755, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 755,  */
 .blog_right_sidebar .post_category_widget .cat-list li {
   border-bottom: 1px solid #f0e9ff;
   transition: all 0.3s ease 0s;
   padding-bottom: 12px;
 }
 
-/* line 760, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 760,  */
 .blog_right_sidebar .post_category_widget .cat-list li:last-child {
   border-bottom: 0;
 }
 
-/* line 764, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 764,  */
 .blog_right_sidebar .post_category_widget .cat-list li a {
   font-size: 14px;
   line-height: 20px;
   color: #888888;
 }
 
-/* line 769, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 769,  */
 .blog_right_sidebar .post_category_widget .cat-list li a p {
   margin-bottom: 0px;
 }
 
-/* line 774, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 774,  */
 .blog_right_sidebar .post_category_widget .cat-list li + li {
   padding-top: 15px;
 }
 
-/* line 791, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 791,  */
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
   justify-content: center;
   align-self: center;
   padding-left: 20px;
 }
 
-/* line 796, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 796,  */
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
   font-size: 16px;
   line-height: 20px;
@@ -1465,29 +1465,29 @@ ul {
   transition: all 0.3s linear;
 }
 
-/* line 807, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 807,  */
 .blog_right_sidebar .popular_post_widget .post_item .media-body a:hover {
   color: #fff;
 }
 
-/* line 813, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 813,  */
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
   font-size: 14px;
   line-height: 21px;
   margin-bottom: 0px;
 }
 
-/* line 820, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 820,  */
 .blog_right_sidebar .popular_post_widget .post_item + .post_item {
   margin-top: 20px;
 }
 
-/* line 828, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 828,  */
 .blog_right_sidebar .tag_cloud_widget ul li {
   display: inline-block;
 }
 
-/* line 831, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 831,  */
 .blog_right_sidebar .tag_cloud_widget ul li a {
   display: inline-block;
   border: 1px solid #eeeeee;
@@ -1500,7 +1500,7 @@ ul {
   font-size: 13px;
 }
 
-/* line 842, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 842,  */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
   background: #fe5c24;
   color: #fff !important;
@@ -1510,14 +1510,14 @@ ul {
   transition: 0.5s;
 }
 
-/* line 857, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 857,  */
 .blog_right_sidebar .instagram_feeds .instagram_row {
   display: flex;
   margin-right: -6px;
   margin-left: -6px;
 }
 
-/* line 863, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 863,  */
 .blog_right_sidebar .instagram_feeds .instagram_row li {
   width: 33.33%;
   float: left;
@@ -1526,7 +1526,7 @@ ul {
   margin-bottom: 15px;
 }
 
-/* line 963, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 963,  */
 .blog_right_sidebar .br {
   width: 100%;
   height: 1px;
@@ -1534,12 +1534,12 @@ ul {
   margin: 30px 0px;
 }
 
-/* line 984, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 984,  */
 .blog-pagination {
   margin-top: 80px;
 }
 
-/* line 988, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 988,  */
 .blog-pagination .page-link {
   font-size: 14px;
   position: relative;
@@ -1556,43 +1556,43 @@ ul {
   margin-right: 10px;
 }
 
-/* line 1005, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1005,  */
 .blog-pagination .page-link i,
 .blog-pagination .page-link span {
   font-size: 13px;
 }
 
-/* line 1017, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1017,  */
 .blog-pagination .page-item.active .page-link {
   background-color: #fbf9ff;
   border-color: #f0e9ff;
   color: #888888;
 }
 
-/* line 1024, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1024,  */
 .blog-pagination .page-item:last-child .page-link {
   margin-right: 0;
 }
 
 /*============ Start Blog Single Styles  =============*/
-/* line 1049, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1049,  */
 .single-post-area .blog_details {
   box-shadow: none;
   padding: 0;
 }
 
-/* line 1054, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1054,  */
 .single-post-area .social-links {
   padding-top: 10px;
 }
 
-/* line 1057, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1057,  */
 .single-post-area .social-links li {
   display: inline-block;
   margin-bottom: 10px;
 }
 
-/* line 1061, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1061,  */
 .single-post-area .social-links li a {
   color: #cccccc;
   padding: 7px;
@@ -1600,18 +1600,18 @@ ul {
   transition: all 0.2s linear;
 }
 
-/* line 1074, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1074,  */
 .single-post-area .blog_details {
   padding-top: 26px;
 }
 
-/* line 1077, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1077,  */
 .single-post-area .blog_details p {
   margin-bottom: 20px;
   font-size: 15px;
 }
 
-/* line 1087, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1087,  */
 .single-post-area .quote-wrapper {
   background: rgba(130, 139, 178, 0.1);
   padding: 15px;
@@ -1623,13 +1623,13 @@ ul {
 }
 
 @media (min-width: 768px) {
-  /* line 1087, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1087,  */
   .single-post-area .quote-wrapper {
     padding: 30px;
   }
 }
 
-/* line 1101, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1101,  */
 .single-post-area .quotes {
   background: #fff;
   padding: 15px 15px 15px 20px;
@@ -1637,82 +1637,82 @@ ul {
 }
 
 @media (min-width: 768px) {
-  /* line 1101, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1101,  */
   .single-post-area .quotes {
     padding: 25px 25px 25px 30px;
   }
 }
 
-/* line 1111, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1111,  */
 .single-post-area .arrow {
   position: absolute;
 }
 
-/* line 1114, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1114,  */
 .single-post-area .arrow .lnr {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* line 1121, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1121,  */
 .single-post-area .thumb .overlay-bg {
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* line 1126, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1126,  */
 .single-post-area .navigation-top {
   padding-top: 15px;
   border-top: 1px solid #f0e9ff;
 }
 
-/* line 1130, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1130,  */
 .single-post-area .navigation-top p {
   margin-bottom: 0;
 }
 
-/* line 1134, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1134,  */
 .single-post-area .navigation-top .like-info {
   font-size: 14px;
 }
 
-/* line 1137, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1137,  */
 .single-post-area .navigation-top .like-info i,
 .single-post-area .navigation-top .like-info span {
   font-size: 16px;
   margin-right: 5px;
 }
 
-/* line 1144, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1144,  */
 .single-post-area .navigation-top .comment-count {
   font-size: 14px;
 }
 
-/* line 1147, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1147,  */
 .single-post-area .navigation-top .comment-count i,
 .single-post-area .navigation-top .comment-count span {
   font-size: 16px;
   margin-right: 5px;
 }
 
-/* line 1156, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1156,  */
 .single-post-area .navigation-top .social-icons li {
   display: inline-block;
   margin-right: 15px;
 }
 
-/* line 1160, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1160,  */
 .single-post-area .navigation-top .social-icons li:last-child {
   margin: 0;
 }
 
-/* line 1164, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1164,  */
 .single-post-area .navigation-top .social-icons li i,
 .single-post-area .navigation-top .social-icons li span {
   font-size: 14px;
   color: #999999;
 }
 
-/* line 1182, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1182,  */
 .single-post-area .blog-author {
   padding: 40px 30px;
   background: #fbf9ff;
@@ -1720,13 +1720,13 @@ ul {
 }
 
 @media (max-width: 600px) {
-  /* line 1182, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1182,  */
   .single-post-area .blog-author {
     padding: 20px 8px;
   }
 }
 
-/* line 1191, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1191,  */
 .single-post-area .blog-author img {
   width: 90px;
   height: 90px;
@@ -1735,7 +1735,7 @@ ul {
 }
 
 @media (max-width: 600px) {
-  /* line 1191, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1191,  */
   .single-post-area .blog-author img {
     margin-right: 15px;
     width: 45px;
@@ -1743,63 +1743,63 @@ ul {
   }
 }
 
-/* line 1204, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1204,  */
 .single-post-area .blog-author a {
   display: inline-block;
 }
 
-/* line 1208, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1208,  */
 .single-post-area .blog-author a:hover {
   color: #fe5c24;
 }
 
-/* line 1213, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1213,  */
 .single-post-area .blog-author p {
   margin-bottom: 0;
   font-size: 15px;
 }
 
-/* line 1218, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1218,  */
 .single-post-area .blog-author h4 {
   font-size: 16px;
 }
 
-/* line 1225, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1225,  */
 .single-post-area .navigation-area {
   border-bottom: 1px solid #eee;
   padding-bottom: 30px;
   margin-top: 55px;
 }
 
-/* line 1230, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1230,  */
 .single-post-area .navigation-area p {
   margin-bottom: 0px;
 }
 
-/* line 1234, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1234,  */
 .single-post-area .navigation-area h4 {
   font-size: 18px;
   line-height: 25px;
 }
 
-/* line 1240, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1240,  */
 .single-post-area .navigation-area .nav-left {
   text-align: left;
 }
 
-/* line 1243, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1243,  */
 .single-post-area .navigation-area .nav-left .thumb {
   margin-right: 20px;
   background: #000;
 }
 
-/* line 1247, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1247,  */
 .single-post-area .navigation-area .nav-left .thumb img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 1252, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1252,  */
 .single-post-area .navigation-area .nav-left .lnr {
   margin-left: 20px;
   opacity: 0;
@@ -1807,41 +1807,41 @@ ul {
   transition: 0.5s;
 }
 
-/* line 1259, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1259,  */
 .single-post-area .navigation-area .nav-left:hover .lnr {
   opacity: 1;
 }
 
-/* line 1264, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1264,  */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
   opacity: .5;
 }
 
 @media (max-width: 767px) {
-  /* line 1240, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1240,  */
   .single-post-area .navigation-area .nav-left {
     margin-bottom: 30px;
   }
 }
 
-/* line 1275, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1275,  */
 .single-post-area .navigation-area .nav-right {
   text-align: right;
 }
 
-/* line 1278, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1278,  */
 .single-post-area .navigation-area .nav-right .thumb {
   margin-left: 20px;
   background: #000;
 }
 
-/* line 1282, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1282,  */
 .single-post-area .navigation-area .nav-right .thumb img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 1287, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1287,  */
 .single-post-area .navigation-area .nav-right .lnr {
   margin-right: 20px;
   opacity: 0;
@@ -1849,24 +1849,24 @@ ul {
   transition: 0.5s;
 }
 
-/* line 1294, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1294,  */
 .single-post-area .navigation-area .nav-right:hover .lnr {
   opacity: 1;
 }
 
-/* line 1299, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1299,  */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
   opacity: .5;
 }
 
 @media (max-width: 991px) {
-  /* line 1307, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1307,  */
   .single-post-area .sidebar-widgets {
     padding-bottom: 0px;
   }
 }
 
-/* line 1314, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1314,  */
 .comments-area {
   background: transparent;
   border-top: 1px solid #eee;
@@ -1875,66 +1875,66 @@ ul {
 }
 
 @media (max-width: 414px) {
-  /* line 1314, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1314,  */
   .comments-area {
     padding: 50px 8px;
   }
 }
 
-/* line 1325, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1325,  */
 .comments-area h4 {
   margin-bottom: 35px;
   font-size: 18px;
 }
 
-/* line 1332, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1332,  */
 .comments-area h5 {
   font-size: 16px;
   margin-bottom: 0px;
 }
 
-/* line 1341, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1341,  */
 .comments-area .comment-list {
   padding-bottom: 48px;
 }
 
-/* line 1344, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1344,  */
 .comments-area .comment-list:last-child {
   padding-bottom: 0px;
 }
 
-/* line 1348, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1348,  */
 .comments-area .comment-list.left-padding {
   padding-left: 25px;
 }
 
 @media (max-width: 413px) {
-  /* line 1354, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1354,  */
   .comments-area .comment-list .single-comment h5 {
     font-size: 12px;
   }
-  /* line 1358, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1358,  */
   .comments-area .comment-list .single-comment .date {
     font-size: 11px;
   }
-  /* line 1362, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1362,  */
   .comments-area .comment-list .single-comment .comment {
     font-size: 10px;
   }
 }
 
-/* line 1369, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1369,  */
 .comments-area .thumb {
   margin-right: 20px;
 }
 
-/* line 1372, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1372,  */
 .comments-area .thumb img {
   width: 70px;
   border-radius: 50%;
 }
 
-/* line 1378, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1378,  */
 .comments-area .date {
   font-size: 14px;
   color: #999999;
@@ -1942,14 +1942,14 @@ ul {
   margin-left: 20px;
 }
 
-/* line 1385, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1385,  */
 .comments-area .comment {
   margin-bottom: 10px;
   color: #777777;
   font-size: 15px;
 }
 
-/* line 1391, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1391,  */
 .comments-area .btn-reply {
   background-color: transparent;
   color: #888888;
@@ -1959,7 +1959,7 @@ ul {
   font-weight: 400;
 }
 
-/* line 1408, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1408,  */
 .comment-form {
   border-top: 1px solid #eee;
   padding-top: 45px;
@@ -1967,44 +1967,44 @@ ul {
   margin-bottom: 20px;
 }
 
-/* line 1416, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1416,  */
 .comment-form .form-group {
   margin-bottom: 30px;
 }
 
-/* line 1420, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1420,  */
 .comment-form h4 {
   margin-bottom: 40px;
   font-size: 18px;
   line-height: 22px;
 }
 
-/* line 1428, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1428,  */
 .comment-form .name {
   padding-left: 0px;
 }
 
 @media (max-width: 767px) {
-  /* line 1428, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1428,  */
   .comment-form .name {
     padding-right: 0px;
     margin-bottom: 1rem;
   }
 }
 
-/* line 1437, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1437,  */
 .comment-form .email {
   padding-right: 0px;
 }
 
 @media (max-width: 991px) {
-  /* line 1437, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+  /* line 1437,  */
   .comment-form .email {
     padding-left: 0px;
   }
 }
 
-/* line 1445, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1445,  */
 .comment-form .form-control {
   border: 1px solid #f0e9ff;
   border-radius: 5px;
@@ -2014,52 +2014,52 @@ ul {
   background: transparent;
 }
 
-/* line 1453, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1453,  */
 .comment-form .form-control:focus {
   outline: 0;
   box-shadow: none;
 }
 
-/* line 1458, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1458,  */
 .comment-form .form-control::placeholder {
   font-weight: 300;
   color: #999999;
 }
 
-/* line 1463, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1463,  */
 .comment-form .form-control::placeholder {
   color: #777777;
 }
 
-/* line 1468, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1468,  */
 .comment-form textarea {
   padding-top: 18px;
   border-radius: 12px;
   height: 100% !important;
 }
 
-/* line 1474, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1474,  */
 .comment-form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1480, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1480,  */
 .comment-form ::-moz-placeholder {
   /* Firefox 19+ */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1486, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1486,  */
 .comment-form :-ms-input-placeholder {
   /* IE 10+ */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1492, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
+/* line 1492,  */
 .comment-form :-moz-placeholder {
   /* Firefox 18- */
   font-size: 13px;
@@ -2067,32 +2067,32 @@ ul {
 }
 
 /*============ End Blog Single Styles  =============*/
-/* line 4, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 4, */
 .single_blog_post .desc a {
   font-size: 16px;
   color: #232b2b !important;
 }
 
-/* line 10, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 10, */
 .single_blog_post .single_blog .single_appartment_content {
   padding: 38px 38px 23px;
   border: 0px solid #fdcb9e;
   box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 }
 
-/* line 14, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 14, */
 .single_blog_post .single_blog .single_appartment_content p {
   font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-/* line 18, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 18, */
 .single_blog_post .single_blog .single_appartment_content p a {
   color: #fe5c24;
 }
 
-/* line 22, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 22, */
 .single_blog_post .single_blog .single_appartment_content h4 {
   font-size: 24px;
   font-weight: 600;
@@ -2100,69 +2100,69 @@ ul {
   margin-bottom: 16px;
 }
 
-/* line 28, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 28, */
 .single_blog_post .single_blog .single_appartment_content h5 {
   font-size: 15px;
   color: #8a8a8a;
   font-weight: 400;
 }
 
-/* line 33, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 33, */
 .single_blog_post .single_blog .single_appartment_content .list-unstyled {
   margin-top: 33px;
 }
 
-/* line 35, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 35, */
 .single_blog_post .single_blog .single_appartment_content .list-unstyled li {
   display: inline;
   margin-right: 17px;
   color: #999999;
 }
 
-/* line 39, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
+/* line 39, */
 .single_blog_post .single_blog .single_appartment_content .list-unstyled li a {
   margin-right: 8px;
   color: #999999;
 }
 
-/* line 1, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+/* line 1, */
 .sub_menu {
   background-color: #191d34;
   padding: 14px 0px;
 }
 
-/* line 5, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+/* line 5, */
 .sub_menu .sub_menu_right_content a {
   color: #fff;
 }
 
-/* line 8, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+/* line 8, */
 .sub_menu .sub_menu_right_content i {
   color: #fe5c24;
   margin-right: 13px;
 }
 
-/* line 12, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+/* line 12, */
 .sub_menu .sub_menu_right_content span {
   color: #757785;
   margin: 0px 20px;
 }
 
 @media (max-width: 576px) {
-  /* line 4, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+  /* line 4, */
   .sub_menu .sub_menu_right_content {
     text-align: center;
   }
 }
 
-/* line 20, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+/* line 20, */
 .sub_menu .sub_menu_social_icon {
   float: right;
   text-align: right;
 }
 
 @media (max-width: 576px) {
-  /* line 20, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+  /* line 20, */
   .sub_menu .sub_menu_social_icon {
     text-align: center;
     float: none;
@@ -2170,13 +2170,13 @@ ul {
   }
 }
 
-/* line 28, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+/* line 28, */
 .sub_menu .sub_menu_social_icon a {
   color: #fff;
   margin-right: 30px;
 }
 
-/* line 31, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
+/* line 31, */
 .sub_menu .sub_menu_social_icon a:hover {
   color: #fe5c24;
 }
@@ -2239,7 +2239,7 @@ ul {
   color: #2f373d;
   font-size: 18px;
   padding: 30px 18px;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
 }
 
@@ -2675,7 +2675,7 @@ ul {
 /* line 58, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_about.scss */
 .about_part .about_text h4 {
   margin-bottom: 31px;
-  color: #fe5c24;
+  color: #000000;
   font-size: 20px;
   font-weight: 300;
 }
@@ -4767,7 +4767,7 @@ input:focus {
 /* line 26, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_team.scss */
 .single_team_member .blog_item_date h3 {
   font-size: 24px;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-weight: 700;
 }
