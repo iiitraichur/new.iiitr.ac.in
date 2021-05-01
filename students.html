@@ -4,144 +4,6 @@ title: "Students"
 main_title: "People"
 ---
 
-<style>
-	/* Flip overlay part of CSS */
-
-	.flip-card {
-		background-color: transparent;
-		width: 250px;
-		height: 250px;
-		margin-left: auto;
-		margin-right: auto;
-		perspective: 1000px;
-		text-align: center;
-	}
-
-	.flip-card-inner {
-		position: relative;
-		width: 100%;
-		height: 100%;
-		text-align: center;
-		transition: transform 0.6s;
-		transform-style: preserve-3d;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	}
-
-	.flip-card:hover .flip-card-inner {
-		transform: rotateY(180deg);
-	}
-
-	.flip-card-front,
-	.flip-card-back {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		-webkit-backface-visibility: hidden;
-		backface-visibility: hidden;
-	}
-
-	.flip-card-front {
-		background-color: #bbb;
-		color: white;
-	}
-
-	.flip-card-back {
-		background-color: #FFFFFF;
-		color: white;
-		transform: rotateY(180deg);
-	}
-
-	flip .card .face {
-		overflow: auto;
-	}
-
-	.flip .card .face table {
-		height: 100%;
-	}
-
-	/* Flip overlay part ended */
-
-	/* CSS For the top cover from codepen */
-
-	.large-header {
-		position: relative;
-		width: 100%;
-		background: #111;
-		overflow: hidden;
-		background-size: cover;
-		background-position: center center;
-		z-index: 1;
-	}
-
-	.demo .large-header {
-		/* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg"); */
-		background-image: url("./assets/images/student/raichur_2.jpg");
-	}
-
-	.main-title {
-		position: absolute;
-		margin: 0;
-		padding: 0;
-		color: #F9F1E9;
-		text-align: center;
-		top: 50%;
-		left: 50%;
-		-webkit-transform: translate3d(-50%, -50%, 0);
-		transform: translate3d(-50%, -50%, 0);
-	}
-
-	.demo .main-title {
-		text-transform: uppercase;
-		font-size: 4.2em;
-		letter-spacing: 0.1em;
-	}
-
-	.main-title .thin {
-		font-weight: 200;
-	}
-
-	@media only screen and (max-width: 768px) {
-		.demo .main-title {
-			font-size: 3em;
-		}
-	}
-
-	/* CSS files for top cover ended */
-
-	.overlay {
-		position: absolute;
-		bottom: 300px;
-		left: 0;
-		right: 0;
-		background-color: #008CBA;
-		overflow: hidden;
-		width: 300px;
-		height: 0;
-		transition: .5s ease;
-	}
-
-	.cover_photo {
-		height: 90vh;
-		min-height: 450px;
-		background-image: url('./assets/images/student/student.jpg');
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-
-	blink {
-		animation: blinker 1s linear infinite;
-		color: blue;
-		font-size: larger;
-	}
-
-	@keyframes blinker {
-		50% {
-			opacity: 0;
-		}
-	}
-</style>
-
 <!-- The cover part from codepen Start-->
 <section class="container-fluid" style="padding-left: 0px ;padding-right: 0px;">
 	<div class="demo">
@@ -507,97 +369,97 @@ main_title: "People"
 
 <!-- Pioneer batch part start -->
 <section class="about_part section_bg section_padding">
-	<div class="container text-center">
+	<div class="container-fluid text-center pioneer-batch">
 		<h1>Pioneering Batch<br></h1>
 
 		<div class="col-lg-12 ">
-			<h2> CSE' 23 <br><br></h2>
+			<h2>CSE' 23 <br><br></h2>
 		</div>
 
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>ABHISHEK SAHOO</h3>
+				<h4>ABHISHEK SAHOO</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>ADITYA AGRAWAL</h3>
+				<h4>ADITYA AGRAWAL</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>ANANYA MANTRAVADI</h3>
+				<h4>ANANYA MANTRAVADI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>BALIJA SUBHA SREE</h3>
+				<h4>BALIJA SUBHA SREE</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>BONAMUKKALA VAMSI KRISHNA REDDY</h3>
+				<h4>BONAMUKKALA VAMSI KRISHNA REDDY</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>DEEPAK SAI PERISETLA</h3>
+				<h4>DEEPAK SAI PERISETLA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>DOSAWADA ROHITH</h3>
+				<h4>DOSAWADA ROHITH</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>DUDDUVARI GANGADHAR</h3>
+				<h4>DUDDUVARI GANGADHAR</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>DYAPA UDAY KUMAR REDDY</h3>
+				<h4>DYAPA UDAY KUMAR REDDY</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>ILLA SAI DEEPIKA</h3>
+				<h4>ILLA SAI DEEPIKA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>JATIN SACHDEVA</h3>
+				<h4>JATIN SACHDEVA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>KANCHARLA GOWTHAM</h3>
+				<h4>KANCHARLA GOWTHAM</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>KAUSTUBH HAREKRUSHNA KESHARWANI</h3>
+				<h4>KAUSTUBH HAREKRUSHNA KESHARWANI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>KOTA HARISH</h3>
+				<h4>KOTA HARISH</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>KUSHAGRA INDURKHYA</h3>
+				<h4>KUSHAGRA INDURKHYA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>MANAV CHAUDHARY</h3>
+				<h4>MANAV CHAUDHARY</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>MUTYALA IMMANIYELU</h3>
+				<h4>MUTYALA IMMANIYELU</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>NERELLA AKHIL</h3>
+				<h4>NERELLA AKHIL</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SAHU THANAI</h3>
+				<h4>SAHU THANAI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SAI YAAMINIE GANDA</h3>
+				<h4>SAI YAAMINIE GANDA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SANAGALA REETHU</h3>
+				<h4>SANAGALA REETHU</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SIDDHARTH SAINI</h3>
+				<h4>SIDDHARTH SAINI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SULTHAN VISHNU SAI</h3>
+				<h4>SULTHAN VISHNU SAI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>VADLAMUDI SAI VENKATA NIMISH</h3>
+				<h4>VADLAMUDI SAI VENKATA NIMISH</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>VIBHANSHU JAIN</h3>
+				<h4>VIBHANSHU JAIN</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>WANKHADE ABHIJEET ARVIND</h3>
+				<h4>WANKHADE ABHIJEET ARVIND</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>YALNATI SAI TEJA</h3>
+				<h4>YALNATI SAI TEJA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>YASHWANTH VALLABHU</h3>
+				<h4>YASHWANTH VALLABHU</h4>
 			</div>
 
 		</div>
@@ -606,7 +468,7 @@ main_title: "People"
 
 <!-- Radiant batch part start -->
 <section class="about_part section_bg section_padding">
-	<div class="container text-center">
+	<div class="container-fluid text-center radiant-batch">
 		<h1>Radiant Batch<br></h1>
 
 		<div class="col-lg-12 ">
@@ -615,85 +477,85 @@ main_title: "People"
 
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>ABHYUDAY CHOUMAL</h3>
+				<h4>ABHYUDAY CHOUMAL</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>BAILAPUDI VIJAY MANIKUMAR</h3>
+				<h4>BAILAPUDI VIJAY MANIKUMAR</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>BANSODE SAURABH DHANANJAY</h3>
+				<h4>BANSODE SAURABH DHANANJAY</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>BEERELLY SRINITHA</h3>
+				<h4>BEERELLY SRINITHA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>GIRIDHAR PAIDA</h3>
+				<h4>GIRIDHAR PAIDA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>KACHHI SHARON ASHISH</h3>
+				<h4>KACHHI SHARON ASHISH</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>KOMMIREDDY LAHARI</h3>
+				<h4>KOMMIREDDY LAHARI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>KUSAM GANESH REDDY</h3>
+				<h4>KUSAM GANESH REDDY</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>MANAV GARG</h3>
+				<h4>MANAV GARG</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>MD UMAID SHAAN</h3>
+				<h4>MD UMAID SHAAN</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>NALLAMOTHU BALAJI</h3>
+				<h4>NALLAMOTHU BALAJI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>PAGOLU LEELA MADHURI</h3>
+				<h4>PAGOLU LEELA MADHURI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>PERISETTI SAI RAM MOHAN RAO</h3>
+				<h4>PERISETTI SAI RAM MOHAN RAO</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>PRIYANSH AGRAHARI</h3>
+				<h4>PRIYANSH AGRAHARI</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>PUPPALA KOUSHIK</h3>
+				<h4>PUPPALA KOUSHIK</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>RAJESH KUMAR RAJORIYA</h3>
+				<h4>RAJESH KUMAR RAJORIYA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>RAKESH KUMBHKAR</h3>
+				<h4>RAKESH KUMBHKAR</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SURESH ABHAY</h3>
+				<h4>SURESH ABHAY</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SARIGALA CHETAN</h3>
+				<h4>SARIGALA CHETAN</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SIKANDER KATHAT</h3>
+				<h4>SIKANDER KATHAT</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SUHANI KALRA</h3>
+				<h4>SUHANI KALRA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>SWAMIREDDY MANASA</h3>
+				<h4>SWAMIREDDY MANASA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>UTTAKARSHIKA</h3>
+				<h4>UTTAKARSHIKA</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>VASANTHA SASHANK REDDY</h3>
+				<h4>VASANTHA SASHANK REDDY</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>VASIMALLA MAHESH</h3>
+				<h4>VASIMALLA MAHESH</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>YARAMALA DILIP KUMAR REDDY</h3>
+				<h4>YARAMALA DILIP KUMAR REDDY</h4>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-center w3-animate-zoom">
-				<h3>YUGAL GARG</h3>
+				<h4>YUGAL GARG</h4>
 			</div>
 
 		</div>
