@@ -325,7 +325,8 @@ a.footer-bottom:active {
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .index-news-cards:hover {
@@ -337,7 +338,7 @@ a.footer-bottom:active {
   width: 100%;
   border-radius: 10px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 .index-news-cards-content {
   padding: 10% 5% 5% 5%;
 }
@@ -491,7 +492,7 @@ a.footer-bottom:active {
   right: 0;
   top: 0;
   bottom: 0;
-  border-color: rgb(43,45,127);
+  border-color: rgb(43, 45, 127);
   border-style: solid;
   border-width: 0;
   -webkit-transition-property: border-width;
@@ -508,3 +509,41 @@ a.footer-bottom:active {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   border-width: 10px;
+}
+
+/* =======================================================
+News Page
+========================================================= */
+.news-page-cards {
+  padding: 2%;
+  margin: 5%;
+  box-shadow: blue 0px 0px 0px 2px inset, rgba(17, 17, 26, 0.1) 0px 5px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  min-height: 250px;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+}
+.news-page-cards:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: blue 0px 0px 0px 4px inset, rgb(255, 255, 255) 6px -6px 0px -1px,
+    rgb(31, 193, 27) 10px -10px;
+}
+.news-page-cards img {
+  min-height: 0px;
+}
+.news-page-cards p {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  overflow: hidden;
+  max-height: 90px;
+  text-overflow: ellipsis;
+}
+
+.news-page-cards-button {
+  font-weight: 1000;
+  font-size: large;
+}
+.news-page-cards-button:hover {
+  text-decoration: underline;
+}
