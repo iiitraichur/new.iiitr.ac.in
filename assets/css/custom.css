@@ -367,7 +367,7 @@ a.footer-bottom:active {
   padding: 200px 0px 120px 0px;
   position: relative;
   overflow: hidden;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .main-banner:after {
@@ -562,8 +562,8 @@ News Page
 Office bearers 
 ============================================================== */
 .office-bearers {
-  /* background-image: url(../images/student/slider_2.jpg); */
-  background-image: radial-gradient(
+  background-image: url(../images/student/student.webp);
+  /* background-image: radial-gradient(
     circle,
     #3a1055,
     #392161,
@@ -577,10 +577,10 @@ Office bearers
     #1e339b,
     #27229b,
     #350099
-  );
+  ); */
   background-repeat: no-repeat;
   background-size: auto;
-  height: 90vh;
+  min-height: 90vh;
   margin-left: 0%;
   margin-right: 0%;
   background-position: center;
@@ -610,7 +610,7 @@ Office bearers
 .office-bearers-cards:hover {
   box-shadow: 1px 1px 2px black, 0 0 10px rgb(255, 255, 255),
     0 0 5px rgb(255, 255, 255);
-  background-color: #27229b;
+  background-color: #282835;
 }
 .office-bearers-image img {
   margin-left: 20%;
