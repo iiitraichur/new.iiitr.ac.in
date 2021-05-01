@@ -316,7 +316,6 @@ a.footer-bottom:active {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 20px;
-  box-shadow: 0 5px 10px 0 rgba(31, 38, 135, 0.37);
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -326,18 +325,19 @@ a.footer-bottom:active {
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .index-news-cards:hover {
   -webkit-transform: scale(1.015);
   transform: scale(1.015);
-  box-shadow: rgb(95, 73, 145) 0px 15px 30px 4px;
+  box-shadow: rgb(102, 95, 95) 0px 5px 15px 4px;
 }
 .index-news-cards img {
   width: 100%;
   border-radius: 10px;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 .index-news-cards-content {
   padding: 10% 5% 5% 5%;
 }
@@ -462,3 +462,49 @@ a.footer-bottom:active {
 .main-banner .left-content form input::placeholder {
   color: #fff;
 }
+
+/*=================================================
+  Some more details section
+=================================================== */
+.home-more-cards {
+  margin: 5%;
+  padding: 5%;
+  text-align: center;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+/* Reveal */
+.hover-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-color: rgb(43,45,127);
+  border-style: solid;
+  border-width: 0;
+  -webkit-transition-property: border-width;
+  transition-property: border-width;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hover-reveal:hover:before,
+.hover-reveal:focus:before,
+.hover-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  border-width: 10px;
