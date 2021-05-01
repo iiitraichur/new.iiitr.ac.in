@@ -35,7 +35,7 @@ input:hover, input:focus {
 
 /* line 18, */
 .section_padding {
-  padding: 30px 0px;
+  padding: 40px 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
