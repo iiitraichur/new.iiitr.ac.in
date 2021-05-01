@@ -464,7 +464,7 @@ a.footer-bottom:active {
   color: #fff;
 }
 
-.main-banner img{
+.main-banner img {
   border-radius: 10px;
 }
 /*=================================================
@@ -551,46 +551,8 @@ News Page
   text-decoration: underline;
 }
 
-/* =====================================
-About Page
-======================================== */
-
-#about {
-  margin-top: 120px;
-}
-
-.about-us {
-  background-image: url(../images/images/about-bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 140px 0px 120px 0px;
-}
-
-.about-us .left-image {
-  margin-right: 45px;
-}
-
-.about-us .services .item {
-  margin-bottom: 30px;
-}
-
-.about-us .services .item .icon {
-  float: left;
-  margin-right: 25px;
-}
-
-.about-us .services .item .icon img {
-  max-width: 70px;
-}
-
-.about-us .services .item h4 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.about-us .services .item p {
-  color: #fff;
+@media (min-width: 576px) {
+  .news-page-cards-button {
+    padding-bottom: 20px;
+  }
 }
