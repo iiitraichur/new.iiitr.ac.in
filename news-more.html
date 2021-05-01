@@ -18,13 +18,13 @@ main_title: "Home"
 				<div class="col-lg-4">
 					<div class="news-page-cards">
 						<h3>{{ post.title }}</h3>
-						<h5 class="text-muted">{{post.date | date: "%d %b %Y"}}</h5>
-						<hr class="highlight">
-						<h6>{{ post.content }}</h6>
-						<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="{{ post.url | absolute_url }}">
-							<h4>More</h4>
-						</a>
-						<hr>
+						<h6 class="text-muted"><b>{{post.date | date: "%d %b %Y"}}</b></h6>
+						{{ post.content }}
+						<div>
+							<a class="news-page-cards-button" href="{{ post.url | absolute_url }}">
+								More
+							</a>
+						</div>
 					</div>
 
 				</div>
