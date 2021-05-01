@@ -34,8 +34,10 @@ title: "Home"
 
 		<div class="row h-100 align-items-center">
 			<div class="col-12 text-center">
-				<h1 style="color:white" class="has-text-align-center">Indian Institute of Information Technology</h1>
-				<h1 style="color:white" class="has-text-align-center">Raichur</h1>
+				<div class="home-landing-text">
+					<h1>Indian Institute of Information Technology</h1>
+					<h1>Raichur</h1>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -58,10 +60,12 @@ title: "Home"
 
 			<div class="col-lg-4">
 				<div class="index-news-cards">
-					<h3>{{ post.title }}</h3>
-					<h5 class="text-muted">{{post.date | date: "%d %b %Y"}}</h5>
 					<img src="./assets/images/news/{{post.img_1}}">
-					{{ post.content }}
+					<div class="index-news-cards-content">
+						<h3>{{ post.title }}</h3>
+						<h5 class="text-muted">{{post.date | date: "%d %b %Y"}}<br></h5>
+						{{ post.content }}
+					</div>
 					<a class="btn btn-xl hover-button" href="{{ post.url | absolute_url }}">
 						<h4>More</h4>
 					</a>
