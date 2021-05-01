@@ -335,6 +335,7 @@ a.footer-bottom:active {
 }
 .index-news-cards img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .index-news-cards-content {
@@ -346,9 +347,9 @@ a.footer-bottom:active {
   max-height: 140px;
   text-overflow: ellipsis;
 }
-
+/* ==================================== */
 /* Home Page Landing text */
-
+/* ==================================== */
 .home-landing-text h1 {
   font-family: "Orelega One", cursive;
   color: whitesmoke;
@@ -356,11 +357,7 @@ a.footer-bottom:active {
   font-weight: 900;
 }
 
-/* 
----------------------------------------------
-Banner Style
---------------------------------------------- 
-*/
+/* ================== This part will be used in future ======================*/
 
 .main-banner {
   background-repeat: no-repeat;
