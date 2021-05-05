@@ -345,7 +345,7 @@ a.footer-bottom:active {
 .index-news-cards p {
   margin: 15px;
   overflow: hidden;
-  max-height: 140px;
+  height: 140px;
   text-overflow: ellipsis;
 }
 /* ==================================== */
@@ -521,7 +521,7 @@ News Page
 .news-page-cards {
   padding: 2%;
   margin: 5%;
-  box-shadow: blue 0px 0px 0px 2px inset, rgba(17, 17, 26, 0.1) 0px 5px 0px,
+  box-shadow: rgb(154, 200, 252) 0px 0px 0px 2px inset, rgba(17, 17, 26, 0.1) 0px 5px 0px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
   min-height: 250px;
   transition-duration: 0.5s;
@@ -530,7 +530,7 @@ News Page
 .news-page-cards:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
-  box-shadow: blue 0px 0px 0px 4px inset, rgb(255, 255, 255) 6px -6px 0px -1px,
+  box-shadow: rgb(154, 200, 252) 0px 0px 0px 4px inset, rgb(255, 255, 255) 6px -6px 0px -1px,
     rgb(31, 193, 27) 10px -10px;
 }
 .news-page-cards img {

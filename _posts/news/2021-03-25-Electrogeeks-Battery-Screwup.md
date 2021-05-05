@@ -1,6 +1,6 @@
 ---
  layout: post	
- title: Electrogeeks Session - Battery Screw Up
+ title: Battery Screw Up 2021
  img_1: 25-03-2021/1.webp
 ---
 
