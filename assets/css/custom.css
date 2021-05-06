@@ -816,6 +816,11 @@ blink {
   background-image: url(../images/student/blurr_cover.jpg);
   padding-top: 50px;
   padding-bottom: 30px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .pioneer-batch h1 {
   color: white;
