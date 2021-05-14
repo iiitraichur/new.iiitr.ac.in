@@ -7,7 +7,7 @@ title: "Home"
 	.cover_photo {
 		height: 90vh;
 		min-height: 450px;
-		background-image: url('./assets/images/index_page/cover.webp');
+		background-image: url('./assets/images/campus/1.jpeg');
 		background-size: cover;
 		background-position: center;
 		margin-bottom: 20px;
@@ -34,88 +34,75 @@ title: "Home"
 
 		<div class="row h-100 align-items-center">
 			<div class="col-12 text-center">
-				<h1 style="color:white" class="has-text-align-center">Indian Institute of Information Technology</h1>
-				<h1 style="color:white" class="has-text-align-center">Raichur</h1>
+				<div class="home-landing-text">
+					<h1>Indian Institute of Information Technology</h1>
+					<h1>Raichur</h1>
+				</div>
 			</div>
 		</div>
 	</div>
 </header>
-<div class="container-fluid" style="text-align:center">
-	<div class="row">
+<section class="section_padding">
+	<div class="container-fluid" style="text-align:center;">
+		<div class="row">
 
-		<div class="col-lg-12">
-			<br><br>
-			<div class="hvr-outline-out">
-				<h1 class="new-heading">The institute will start functioning from its transit campus in Govt Engineering
-					College, Raichur from the academic year 2020-21 &nbsp;(<a style="color:red"
-						href="./transitcampus.html">more</a>) <br><br></b></h1>
-				<!--a class="btn btn-light btn-xl js-scroll-trigger shadow" href="transitcampus.html"><h4>More</h4></a-->
+			<div class="col-lg-12 text-center">
+				<h2>Latest Updates</h2>
+				<hr style="margin-left:auto; border: 2px solid blue; width:50px;">
 			</div>
-			<style>
-				.new-heading {
-					color: blue;
-					font-family: 'Staatliches', cursive;
-					size: 70px;
-				}
 
-				@media only screen and (max-width: 600px) {
-					.new-heading {
-						size: 45px;
-					}
-				}
-			</style>
+			{% assign count = 0 %}
+
+			{% for post in site.posts %}
+			{% if count == 3 %}
+			{% break %}
+			{% endif %}
+
+			<div class="col-lg-4">
+				<div class="index-news-cards">
+					<img src="./assets/images/news/{{post.img_1}}" alt="{{ post.title }} | News | IIIT Raichur">
+					<div class="index-news-cards-content">
+						<h3>{{ post.title }}</h3>
+						<h5 class="text-muted">{{post.date | date: "%d %b %Y"}}<br></h5>
+						{{ post.content }}
+					</div>
+					<a class="btn btn-xl hover-button" href="{{ post.url | absolute_url }}">
+						<h4>More</h4>
+					</a>
+				</div>
+			</div>
+
+			{% assign count = count | plus: 1 %}
+			{% endfor %}
 		</div>
-
-		<div class="col-lg-12 text-center">
-			<h2>Latest Updates</h2>
-			<hr style="margin-left:auto; border: 2px solid blue; width:50px;">
-		</div>
-
-		{% assign count = 0 %}
-
-		{% for post in site.posts %}
-		{% if count == 4 %}
-		{% break %}
-		{% endif %}
-
-		<div class="col-lg-4">
-			<h3>{{ post.title }}</h3>
-			<h5 class="text-muted">{{post.date | date: "%d %b %Y"}}</h5>
-			<hr class="divider dark my-4">
-			<img src="./assets/images/news/{{post.img_1}}">
-			<hr class="divider dark my-4">
-			<h6>{{ post.content }}</h6>
-			<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="{{ post.url | absolute_url }}">
-				<h4>More</h4>
-			</a>
-			<hr class="divider dark my-4">
-		</div>
-
-		{% assign count = count | plus: 1 %}
-		{% endfor %}
-
-		<div class="col-lg-4">
-			<h3>Student Life</h3>
-			<hr class="divider dark my-4">
-			<img src="./assets/images/index_page/slider_3.jpg">
-			<h5><br>The pioneering batch.</h5>
-			<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="students.html">
-				<h4>More</h4>
-			</a>
-			<hr class="divider dark my-4">
-		</div>
-		<div class="col-lg-4">
-			<h3>Faculty Recruitment</h3>
-			<hr class="divider dark my-4">
-			<img src="./assets/images/index_page/careers.jpg">
-			<h5><br>The recruitment process for both teaching and non-teaching staff is going on under the mentor
-				institute IIT Hyderabad.</h5>
-			<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="careers.html">
-				<h4>More</h4>
-			</a>
-			<hr class="divider dark my-4">
-		</div>
-
 	</div>
+</section>
+<section class="section_padding">
+	<div class="container">
+		<div class="row">
 
-</div>
+			<div class="col-lg-6">
+				<div class="home-more-cards hover-reveal">
+					<h3>Student Life</h3>
+					<img src="./assets/images/index_page/slider_3.jpg" alt="Students IIIT Raichur">
+					<h5><br>The pioneering batch.<br><br></h5>
+					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="students.html">
+						<h4>More</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="home-more-cards hover-reveal">
+					<h3>Faculty Recruitment</h3>
+					<img src="./assets/images/index_page/careers.jpg" alt="Recruitment IIIT Raichur">
+					<h5><br>The recruitment process for both teaching and non-teaching staff is going on under the
+						mentor
+						institute IIT Hyderabad.</h5>
+					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="careers.html">
+						<h4>More</h4>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
