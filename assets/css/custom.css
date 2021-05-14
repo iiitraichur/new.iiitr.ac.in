@@ -287,7 +287,7 @@ a.footer-bottom:active {
 
 /* ============ HOVER BUTTON =================== */
 .hover-button {
-  margin: 5%;
+  margin: 0px 0px 25px 0px;
   width: fit-content;
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
@@ -343,7 +343,7 @@ a.footer-bottom:active {
   padding: 10% 5% 5% 5%;
 }
 .index-news-cards p {
-  margin: 15px;
+  margin: 5px;
   overflow: hidden;
   height: 140px;
   text-overflow: ellipsis;
@@ -351,11 +351,18 @@ a.footer-bottom:active {
 /* ==================================== */
 /* Home Page Landing text */
 /* ==================================== */
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
 .home-landing-text h1 {
-  font-family: "Orelega One", cursive;
   color: whitesmoke;
-  text-shadow: 4px 4px #000000;
   font-weight: 900;
+  letter-spacing: 0.3em;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-landing-text h1 {
+    letter-spacing: 00.1em;
+  }
 }
 
 /* ================== This part will be used in future ======================*/
@@ -848,11 +855,17 @@ blink {
 .pioneer-batch h4:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-  color: #ffffff;
+  color: white;
   font-weight: 900;
   text-decoration: underline;
 }
 
+.pioneer-batch a{
+  color: white;
+}
+.pioneer-batch a:hover{
+  color:#44f83e;
+}
 .radiant-batch h4 {
   padding: 2px;
   font-weight: 900;
