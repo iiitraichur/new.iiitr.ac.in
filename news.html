@@ -25,15 +25,14 @@ main_title: "Home"
 								<h6 class="text-muted"><b>{{post.date | date: "%d %b %Y"}}</b></h6>
 								{{ post.content }}
 								<div>
-									<a class="news-page-cards-button"
-										href="{{ post.url | absolute_url }}">
+									<a class="news-page-cards-button" href="{{ post.url | absolute_url }}">
 										More
 									</a>
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<img class="d-block w-100 desk" src="./assets/images/news/{{post.img_1}}"
-									alt="First slide">
+									alt="{{ post.title }} | News | IIIT Raichur">
 							</div>
 						</div>
 					</div>
