@@ -828,7 +828,7 @@ blink {
   }
 }
 .pioneer-batch {
-  background-image: url(../images/student/blurr_cover.jpg);
+  background-image: url(../images/student/blurr_cover.webp);
   padding-top: 50px;
   padding-bottom: 30px;
   background-repeat: no-repeat;
