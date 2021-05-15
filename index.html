@@ -7,11 +7,17 @@ title: "Home"
 	.cover_photo {
 		height: 90vh;
 		min-height: 450px;
-		background-image: url('./assets/images/campus/1.jpeg');
+		background-image: url('./assets/images/index_page/cover.webp');
 		background-size: cover;
 		background-position: center;
 		margin-bottom: 20px;
 		background-repeat: no-repeat;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.cover_photo {
+			background-image: url('./mobile-cover.jpeg');
+		}
 	}
 
 	blink {
@@ -35,8 +41,10 @@ title: "Home"
 		<div class="row h-100 align-items-center">
 			<div class="col-12 text-center">
 				<div class="home-landing-text">
-					<h1>Indian Institute of Information Technology</h1>
-					<h1>Raichur</h1>
+					<h1>
+						Indian Institute of Information Technology<br>
+						Raichur
+					</h1>
 				</div>
 			</div>
 		</div>
