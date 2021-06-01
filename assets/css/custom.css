@@ -550,6 +550,7 @@ News Page
 }
 .news-page-cards img {
   min-height: 0px;
+  height: 250px;
 }
 .news-page-cards p {
   padding-top: 2%;
