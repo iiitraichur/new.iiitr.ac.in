@@ -4,24 +4,29 @@ title: "Services"
 main_title: "Campus"
 ---
 
-<!-- Admission Details 2021-->
-<section class="about_part section_padding">
-    <div class="container">
-        <h2>
-            Campus Services
-            <hr style="margin-left:5px; border: 2px solid blue; width:50px;">
-        </h2>
-    </div>
-</section>
 
 <style>
-    .campus-services {
+  .main-heading{
+      font-weight: bold;
+      font-size: xx-large;
+      color: darkblue;
+  }     
+  .services-row {
+    margin: 20px;
+  }
+  .service-img{
+    height: 300px;
+  }
+  .service-card-title{
+    font-weight: bold;
+    color: rgb(128, 68, 25);
+  }
+
+  .campus-services {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
-        padding: 20px;
-        padding-top: 50px;
         padding-bottom: 50px;
-        margin: 10px;
+        margin: 20px;
         vertical-align: middle;
         -webkit-transform: perspective(1px) translateZ(0);
         transform: perspective(1px) translateZ(0);
@@ -31,63 +36,108 @@ main_title: "Campus"
         transition-property: transform
     }
 
-    .campus-services:hover {
+  .campus-services:hover {
         -webkit-transform: scale(1.05);
         transform: scale(1.05);
-        box-shadow: 0 4px 8px 0 rgb(155, 157, 253), 0 6px 20px 0 #9496ff;
+        box-shadow: 0 4px 8px 0 rgb(85, 88, 230), 0 6px 20px 0 #9496ff;
     }
+
+  .service-button{
+    color: #FFFFFF;
+   font-family: Arial;
+   cursor: pointer;
+   background-color: #1622D7;
+  }
+  .service-button:hover {
+    background: #0B2248;
+    color: #FFFFFF;
+    border-radius: 20px;
+  }
 </style>
 
-<!-- Services cards -->
-<section class="section_padding">
-    <div class="container">
+<div class="d-flex justify-content-center">
+  <p class="main-heading">Campus Services</p>
+</div>
 
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="campus-services card">
-                    <a href="library.html">
-                        <h2>
-                            Library
-                        </h2>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="campus-services card">
-                    <h2>
-                        Library
-                    </h2>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="campus-services card">
-                    <h2>
-                        Library
-                    </h2>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="campus-services card">
-                    <h2>
-                        Library
-                    </h2>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="campus-services card">
-                    <h2>
-                        Library
-                    </h2>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="campus-services card">
-                    <h2>
-                        Library
-                    </h2>
-                </div>
-            </div>
-        </div>
 
+<div class="row services-row">
+  <div class="col-sm-4">
+    <div class="campus-services card">
+      <img class="service-img" src="/assets/images/campus/9.jpeg" class="card-img-top" alt="IIITR Library">
+      <div class="card-body">
+        <h3 class="card-title service-card-title">Library</h3>
+        <p class="card-text">IIITR started the functioning of its library with all the necessary commodities. The process of stacking up
+        the books was commenced and is pacing towards stuffing for the fullest potential.</p>
+        <a href="library.html" class="btn service-button">Explore</a>
+      </div>
     </div>
-</section>
+  </div>
+  <div class="col-sm-4">
+    <div class="campus-services card">
+      <img class="service-img" src="/assets/images/campus/2.jpeg" class="card-img-top" alt="IIITR Hostel">
+      <div class="card-body">
+        <h3 class="card-title service-card-title">Hostel and Accommodation</h3>
+        <p class="card-text">IIITR furnishes essential components for the students for their accommodation. The students rooms comprise basic infrastructure such as beds, cupboard and study tables to meet the student’s needs.</p>
+        <a href="#" class="btn service-button">Explore</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="campus-services card">
+      <img class="service-img" src="/assets/images/campus/11.jpg" class="card-img-top" alt="RIMS">
+      <div class="card-body">
+        <h3 class="card-title service-card-title">Medical Facilities</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn service-button">Explore</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row services-row">
+  <div class="col-sm-4">
+    <div class="campus-services card">
+      <img class="service-img" src="/assets/images/campus/wifi.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title service-card-title">Internet Sevice</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn service-button">Explore</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="campus-services card">
+      <img class="service-img" src="/assets/images/campus/10.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title service-card-title">Sports Service</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn service-button">Explore</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-4">
+    <div class="campus-services card">
+      <img class="service-img" src="/assets/images/campus/12.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title service-card-title">Recreational Service</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn service-button">Explore</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row services-row">
+  <div class="col-sm-4">
+    <div class="campus-services card">
+      <img class="service-img" src="/assets/images/campus/5.jpeg" class="card-img-top" alt="IIITR Mess">
+      <div class="card-body">
+        <h3 class="card-title service-card-title">Dining</h3>
+        <p class="card-text">IIITR has common Dining facility for all its students,staff and faculty. Both north Indian and 
+            south Indian varieties are served in the dining hall. The quality of food is regularly inspected by student representatives and wardens</p>
+        <a href="#" class="btn service-button">Explore</a>
+      </div>
+    </div>
+  </div>
+</div>
