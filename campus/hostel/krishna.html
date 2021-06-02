@@ -17,6 +17,16 @@ main_title: Campus
 </head>
 
 <style>
+	/* style of heading used on background image */
+	.utility2 {
+		margin-top: -150px;
+		color: #2B2D7F;
+		font-weight: 900;
+		letter-spacing: 0.1em;
+		text-shadow: 1px 1px 1px rgb(133, 126, 167), 5px 5px 8px rgb(255, 255, 255);
+	}
+
+	/* cover photo styling */
 	.cover_photo {
 		height: 90vh;
 		min-height: 300px;
@@ -27,29 +37,44 @@ main_title: Campus
 		background-repeat: no-repeat;
 	}
 
-        .set{
-                margin-bottom : 15px;
-        }
-        .a1{
-            color: rgb(20, 133, 209);
-            font-size: 150%;
-        }
-
-@media only screen and (max-width: 600px) {
-		.cover_photo {
-			background-image: url('./mobile-cover.jpeg');
-		}
+	/* positioning of heading used on background */
+	.utility1 {
+		position: relative;
+		bottom: 20%;
 	}
 
-</style>
+	/* hostel warden styling */
+	.set {
+		margin-bottom: 15px;
+		text-align: center;
+	}
 
+	/* for mobile screen */
+	@media only screen and (max-width: 600px) {
+		.cover_photo {
+			background-image: url('../../assets/images/campus/hostel/3.jpeg');
+			background-size: cover;
+			background-position: center;
+			position: relative;
+			text-align: center;
+
+		}
+
+		.utility1 {
+			position: relative;
+			bottom: 20%;
+		}
+
+	}
+</style>
+<!-- for header on background image -->
 <header class="cover_photo">
 	<div class="container h-100">
 
-		<div class="row h-100 align-items-center" style="position: relative; bottom: 20%;">
+		<div class="row h-100 align-items-center utility1">
 			<div class="col-12 text-center">
-				<div class="home-landing-text">
-					<h1>Krishna Hostel</h1>
+				<div>
+					<h1 class="utility2">Krishna Hostel</h1>
 				</div>
 			</div>
 		</div>
@@ -57,54 +82,37 @@ main_title: Campus
 </header>
 
 <body>
-	<!-- <div>
-		<img src="../../assets/images/campus/hostel/2.jpeg" alt="Background Image" class="bg" style="width: 100%;">
-		<div class="text-block">Krishna Hostel</div>
-	</div> -->
-
-	
-	<h1 class="text-primary text-center myH1 thick">Hostel Warden</h1>
-	<section id="hero"
+	<!-- card for hostel warden -->
+	<h1 class="text-primary text-center">Hostel Warden</h1>
+	<section
 		class="d-flex justify-content-sm-center justify-content-sm-evenly align-items-center flex-column-reverse gap-3 flex-md-row">
-		<!-- hero -->
 		<div
-			class="d-flex justify-content-sm-center align-items-center flex-column  justify-content-md-start align-items-md-start ">
+			class="d-flex justify-content-sm-center align-items-center flex-column  justify-content-md-start align-items-md-start">
 			<h3 class="set">Dr. Ramesh Jallu</h3>
 			<p class="set a1">Assistant Professor</p>
 			<a href="mailto:jallu@iiitr.ac.in" class="set">jallu[at]iiitr.ac.in</a>
-			<!-- <p>I'm a B.tech Student at IIIT Raichur mentored by IIT hydrabad -->
-			<!-- </p> -->
 			<a href="../../cse/jallu.html"><button class="btn btn-dark btn-outline-success ">More info</button></a>
 		</div>
-		
+
 		<!-- mobile view image formatting -->
 		<div class="d-md-none w-50 h-50">
 			<img src="../../assets/images/faculty/cse/jallu.jpeg" alt="Dr. Ramesh Jallu"
 				class="w-100 h-100 rounded-circle shadow">
-				
-
 		</div>
 
 		<!-- desktop view image formatting -->
 		<div class="d-none d-md-block w-25 h-25">
-
 			<img src="../../assets/images/faculty/cse/jallu.jpeg" alt="Dr. Ramesh Jallu"
 				class="w-100 h-100 rounded-circle shadow">
-			<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, modi.</p> -->
-
 		</div>
 
 	</section>
 
-	<!-- <h1 class="text-primary text-center myH1 thick">Gallery</h1> -->
-
-
-
+	<!-- Photo gallery card -->
 	<div class="container">
 
 		<div class="col-lg-12 text-center">
-			<h1 class="text-primary text-center myH1 thick"><br><br>Photo Gallery</h1>
-			<!-- <hr style="margin-left:auto; border: 2px solid blue; width:50px;"> -->
+			<h1 class="text-primary text-center"><br><br>Photo Gallery</h1>
 		</div>
 
 		<div class="row">
@@ -144,9 +152,10 @@ main_title: Campus
 
 	</div>
 
-    <div class="container">
-	<h1 class="text-primary text-center myH1 thick">Address</h1>
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi a consequuntur officiis placeat! Harum
-		debitis eius iusto asperiores nihil?</p>
+	<!-- address card -->
+	<div class="container">
+		<h1 class="text-primary text-center ">Address</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi a consequuntur officiis placeat! Harum
+			debitis eius iusto asperiores nihil?</p>
 	</div>
 </body>
