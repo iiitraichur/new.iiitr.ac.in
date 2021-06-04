@@ -7,11 +7,12 @@ main_title: Campus
 <style>
 	/* style of heading used on background image */
 	.utility2 {
-		margin-top: -150px;
 		color: #2B2D7F;
-		font-weight: 900;
-		letter-spacing: 0.1em;
+		font-weight: 1000;
+		font-size: 300%;
+		letter-spacing: 0.2em;
 		text-shadow: 1px 1px 1px rgb(133, 126, 167), 5px 5px 8px rgb(255, 255, 255);
+		text-align: center;
 	}
 
 	/* cover photo styling */
@@ -27,22 +28,23 @@ main_title: Campus
 
 	/* positioning of heading used on background */
 	.utility1 {
-		position: relative;
-		bottom: 20%;
-	}
-
-	/* hostel warden styling */
-	.set {
-		margin-bottom: 15px;
+		position: absolute;
+		bottom: 72%;
+		left: 10%;
+		right: 10%;
+		align-items: center;
 		text-align: center;
+		/* padding: 20%; */
+		
 	}
 
 	.warden-image img {
 		width: 80%;
 		margin-left: 10%;
 		margin-right: 10%;
-		margin: 20px;
-		padding: 5px;
+		/* margin: 20px; */
+		padding: 1.5%;
+		margin-top: 10px;
 		border-radius: 50%;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
@@ -81,12 +83,22 @@ main_title: Campus
 		}
 
 		.warden-content {
-			margin-left: 5%;
-			margin-right: 5%;
+			margin: 5%;
 		}
 
 		.warden-contact-icon-container {
 			text-align: left;
+		}
+
+		.warden-image img {
+			align-items: center;
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+			/* margin: 20px; */
+			/* padding: 5px; */
+			border-radius: 50%;
+			/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 		}
 
 	}
@@ -97,11 +109,17 @@ main_title: Campus
 	<div class="cover_photo">
 		<div class="container">
 			<div class="row align-items-center utility1">
-				<div class="text-center">
-					<h1 class="utility2">Krishna Hostel</h1>
+				<div class="home-landing-text">
+					<!-- <h1 class="utility2">Krishna Hostel</h1> -->
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+
+<section class="container">
+	<div class="utility1">
+		<h1 class="utility2">Krishna Hostel</h1>
 	</div>
 </section>
 
@@ -111,9 +129,9 @@ main_title: Campus
 
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>Hostel warden</h2>
+				<h1 class="text-primary">Hostel Warden</h1>
 			</div>
-			<div class="col-lg-4 warden-image">
+			<div class="col-lg-4 col-md-12 col-sm-12 warden-image">
 				<img src="../../assets/images/faculty/cse/jallu.jpeg" alt="Dr. Ramesh Jallu">
 			</div>
 			<div class="col-lg-8 warden-content">
@@ -124,12 +142,12 @@ main_title: Campus
 					</div>
 					<div class="col-lg-6 warden-contact-icon-container">
 						<h2>
-							<div class="column">
-								<div>
+							<div class="row">
+								<div class="col-sm-2 col-lg-12">
 									<a class="fa fa-envelope warden-contact-icons" href="mailto:jallu@iiitr.ac.in"></a>
 								</div>
-								<div>
-									<a href="tel://9680017462" class="fa fa-phone warden-contact-icons"></a>
+								<div class="col-sm-2 col-lg-12">
+									<a href="tel://8532251010" class="fa fa-phone warden-contact-icons"></a>
 								</div>
 							</div>
 						</h2>
@@ -164,12 +182,13 @@ main_title: Campus
 
 	</div>
 </section>
+
 <section class="section_padding">
 	<!-- Photo gallery card -->
 	<div class="container">
 
 		<div class="col-lg-12 text-center">
-			<h1 class="text-primary text-center"><br><br>Photo Gallery</h1>
+			<h1 class="text-primary text-center">Photo Gallery</h1>
 		</div>
 
 		<div class="row">
