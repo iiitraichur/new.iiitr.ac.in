@@ -4,42 +4,182 @@ title: "Tungabhadra Hostel"
 main_title: Campus
 ---
 
+
 <style>
-	.bg-image {
-		background-image: url('../../assets/images/campus/hostel/1.jpeg');
-		height: 90vh;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+	/* style of heading used on background image */
+	.utility2 {
+		color: #2B2D7F;
+		font-weight: 1000;
+		font-size: 300%;
+		letter-spacing: 0.2em;
+		text-shadow: 1px 1px 1px rgb(133, 126, 167), 5px 5px 8px rgb(255, 255, 255);
+		text-align: center;
 	}
 
-	.utility2 {
-		/* margin-top: -150px; */
-		color: #2B2D7F;
-		font-weight: 900;
-		letter-spacing: 0.1em;
-		text-shadow: 1px 1px 1px rgb(133, 126, 167), 5px 5px 8px rgb(255, 255, 255);
-		/* text-align: center; */
+	/* cover photo styling */
+	.cover_photo {
+		height: 90vh;
+		min-height: 300px;
+		background-image: url('../../assets/images/campus/hostel/1.jpeg');
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 20px;
+		background-repeat: no-repeat;
 	}
 
 	/* positioning of heading used on background */
 	.utility1 {
-		position: relative;
-		bottom: 20%;
-		left: 35%;
-		padding: auto;
-		/* text-align: center; */
+		position: absolute;
+		bottom: 75%;
+		top: 17%;
+		left: 10%;
+		right: 10%;
+		align-items: center;
+		text-align: center;
+		/* padding: 20%; */
+
+	}
+
+	.warden-image img {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		/* margin: 20px; */
+		padding: 1.5%;
+		margin-top: 10px;
+		border-radius: 50%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.warden-content {
+		border-radius: 20px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 5%;
+	}
+
+	.warden-content h2,
+	h3 {
+		font-weight: 100;
+		padding-bottom: 10px;
+	}
+
+	.warden-contact-icons {
+		margin-bottom: 15px;
+	}
+
+	.warden-contact-icon-container {
+		text-align: right;
+	}
+
+	.hostel-warden-button{
+		background-color: hsl(0, 6%, 72%);
+		color: black;
+	}
+
+	.hostel-warden-button:hover{
+		background-color: #2c2f7f;
+		color: white;
+	}
+
+	/* for mobile screen */
+	@media only screen and (max-width: 600px) {
+		.cover_photo {
+			background-image: url('../../assets/images/campus/hostel/1.jpeg');
+			background-size: cover;
+			background-position: center;
+			position: relative;
+			text-align: center;
+
+		}
+
+		.warden-content {
+			margin: 5%;
+		}
+
+		.warden-contact-icon-container {
+			text-align: left;
+		}
+
+		.warden-image img {
+			align-items: center;
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+			/* margin: 20px; */
+			/* padding: 5px; */
+			border-radius: 50%;
+			/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+		}
+
 	}
 </style>
 
 <section>
-	<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, enim?</p> -->
-	<div class="bg-image">
-		<div class="container">
-			<div class="row h-100 align-items-center utility1">
-				<h1 class="utility2" style="text-align: center;">Tungabhadra Hostel </h1>
+	<div class="cover_photo"></div>
+</section>
+
+<section class="container">
+	<div class="utility1">
+		<h1 class="utility2">Tungabhadra Hostel</h1>
+	</div>
+</section>
+
+<!-- card for hostel warden -->
+<section class="section_padding">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h1>Hostel Warden</h1>
+				<hr style="margin-left:auto; border: 2px solid blue; width:50px;">
+			</div>
+			<div class="col-lg-4 col-md-12 col-sm-12 warden-image">
+				<img src="../../assets/images/faculty/cse/jallu.jpeg" alt="Dr. Ramesh Jallu">
+			</div>
+			<div class="col-lg-8 warden-content">
+				<div class="row">
+					<div class="col-lg-6">
+						<h2>Dr. Ramesh Jallu</h2>
+						<h3>Assistant Professor</h3>
+					</div>
+					<div class="col-lg-6 warden-contact-icon-container">
+						<h2>
+							<div class="row">
+								<div class="col-2 col-lg-12">
+									<a class="fa fa-envelope warden-contact-icons" href="mailto:jallu@iiitr.ac.in"></a>
+								</div>
+								<div class="col-2 col-lg-12">
+									<a href="tel://8532251010" class="fa fa-phone warden-contact-icons"></a>
+								</div>
+							</div>
+						</h2>
+					</div>
+					<div class="col-lg-12">
+						<h4>
+							<a href="../../cse/jallu.html"><button class="btn hostel-warden-button">More
+									info</button></a>
+						</h4>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<p>12343 4 98098008Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, maiores.</p>
+</section>
+
+
+<!-- address card -->
+<!-- <div class="container">
+	<h1 class="text-primary text-center ">Address</h1>
+	<p style="padding-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi a
+		consequuntur officiis placeat! Harum
+		debitis eius iusto asperiores nihil?</p>
+</div> -->
+
+<section class="section_padding">
+	<div class="container-fluid">
+		<iframe style="width: 94%; height: 80vh; margin-left: 3%; margin-right: 3%;"
+        src="https://momento360.com/e/u/02bb29622cb64cb8822138d65d56ce56?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"></iframe>
+	</div>
 </section>

@@ -5,11 +5,7 @@ main_title: "Campus"
 ---
 
 <style>
-	.myH1 {
-		text-shadow: 4px 4px 10px rgb(194, 128, 230);
-	}
-
-	.abhi:hover {
+	.card-effects:hover {
 		color: blue;
 		font-size: larger;
 		transform: scale(1.05);
@@ -23,9 +19,10 @@ main_title: "Campus"
 	<!-- card for hostels -->
 	<div class="container mt-3 text-center">
 		<section class="mt-5 p-4">
-			<h1 class="text-primary text-center myH1 thick">Hostels</h1>
+			<h1 class="text-center">Hostels</h1>
+			<hr style="margin-left:auto; border: 2px solid blue; width:50px;">
 			<div class="row">
-				<div class="col-sm-12 col-lg-4 col-md-12 abhi">
+				<div class="col-sm-12 col-lg-4 col-md-12 card-effects">
 					<div class="card mt-3 mb-2">
 						<!-- <a href="krishna.html"> -->
 						<img src="{{ site.baseurl }}/assets/images/campus/hostel/2.jpeg" class="card-img-top"
@@ -38,7 +35,7 @@ main_title: "Campus"
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-lg-4 col-md-12 abhi">
+				<div class="col-sm-12 col-lg-4 col-md-12 card-effects">
 					<div class="card mt-3 mb-2">
 						<!-- <a href="tungabhadra.html"> -->
 						<img src="{{ site.baseurl }}/assets/images/campus/hostel/1.jpeg" class="card-img-top"
@@ -51,7 +48,7 @@ main_title: "Campus"
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-lg-4 col-md-12 abhi">
+				<div class="col-sm-12 col-lg-4 col-md-12 card-effects">
 					<div class="card mt-3 mb-2">
 						<!-- <a href="girlshostel.html"> -->
 						<img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
@@ -66,7 +63,56 @@ main_title: "Campus"
 			</div>
 		</section>
 	</div>
-	
+
+
+	<!-- Photo gallery card -->
+	<section class="section_padding">
+		<div class="container">
+
+			<div class="col-lg-12 text-center">
+				<h1>Photo Gallery</h1>
+				<hr style="margin-left:auto; border: 2px solid blue; width:50px;">
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="gallery">
+						<img src="../../assets/images/campus/2.jpeg">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="gallery">
+						<img src="../../assets/images/campus/3.jpeg">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="gallery">
+						<img src="../../assets/images/campus/4.jpeg">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="gallery">
+						<img src="../../assets/images/campus/5.jpeg">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="gallery">
+						<img src="../../assets/images/campus/7.jpeg">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="gallery">
+						<img src="../../assets/images/campus/8.jpeg">
+					</div>
+				</div>
+				<div class="col-lg-12" style="padding-bottom: 30px;">
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
 		crossorigin="anonymous"></script>
