@@ -26,9 +26,11 @@ layout: default
         </div>
 
 
+        {% if page.img_1 != NULL %}
         <div class="col-lg-6">
             <img src="{{ site.baseurl }}/assets/images/news/{{ page.img_1 }}">
         </div>
+        {% endif %}
         {% if page.img_2 != NULL %}
         <div class="col-lg-6">
             <img src="{{ site.baseurl }}/assets/images/news/{{ page.img_2 }}">
