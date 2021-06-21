@@ -11,8 +11,8 @@ main_title: "Home"
 
 			<div class="row" style="margin: 2rem auto">
 				{% assign count = 0 %}
-
-				{% for post in site.posts %}
+				{% assign update = site.categories['update'] %}
+				{% for post in update %}
 				{% if count == 6 %}
 				{% break %}
 				{% endif %}

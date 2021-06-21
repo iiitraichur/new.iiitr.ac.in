@@ -60,8 +60,8 @@ title: "Home"
 			</div>
 
 			{% assign count = 0 %}
-
-			{% for post in site.posts %}
+			{% assign update = site.categories['update'] %}
+			{% for post in update %}
 			{% if count == 3 %}
 			{% break %}
 			{% endif %}
