@@ -5,5 +5,6 @@
  img_2: ebsb_day_5_7.jpeg
  img_3: ebsb_day_5_5.jpeg
  img_4: ebsb_day_5_6.jpeg
+ categories: update
 ---
 Marking the closing ceremony of the EBSB Cultural Exchange Program, the students celebrated Bathukamma - the floral festival of Telangana. Later savoured the Carnatic Music and the Ethnic Cuisines of state. Followed by a cricket match between IIIT Sonepat students and IIIT Raichur students in which the Sonepat team outplayed the Raichur team.
