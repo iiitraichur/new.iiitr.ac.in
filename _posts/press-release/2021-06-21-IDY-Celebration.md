@@ -1,6 +1,6 @@
 ---
 layout: post
-title: International Day for Yoga 2021
+title: International Day of Yoga 2021
 categories: pressrelease
 ---
 
