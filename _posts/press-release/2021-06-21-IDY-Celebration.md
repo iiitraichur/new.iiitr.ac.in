@@ -30,10 +30,11 @@ categories: pressrelease
 <strong> Emphasizing the importance of good health, Prof. B. S. Murty, Mentor Director, IIIT Raichur said, </strong> “I congratulate IIIT Raichur Student Body for successfully observing International Day of Yoga with various exciting exercises. Yoga is beyond regular exercises. It simply gives the balance of our inner self which gives us a good life and makes us perfect ”.
 </div>
 <div class="row">
+<div class="col-lg-6">
+    <iframe width="80%" style="margin:10%" height="315" src="https://www.youtube.com/embed/l86V2mJzphI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
     <div class="col-lg-6">
         <iframe width="80%" style="margin:10%" height="315" src="https://www.youtube.com/embed/7Bmphmiafw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="col-lg-6">
-        <iframe width="80%" style="margin:10%" height="315" src="https://www.youtube.com/embed/l86V2mJzphI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+
 </div>
