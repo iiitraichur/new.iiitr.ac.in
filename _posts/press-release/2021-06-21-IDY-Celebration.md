@@ -2,6 +2,7 @@
 layout: post
 title: International Day of Yoga 2021
 categories: pressrelease
+file: Press Release  7th International Day of Yoga celebrations at IIIT Raichur.pdf
 ---
 
 <div>
