@@ -24,10 +24,11 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" {% if page.url=="/about.html" or
                                         page.url=="/administration.html" or page.url=="/reach_us.html" or
-                                        page.url=="/documents.html" %} style="color:#fe5c24;font-weight:500;" {% endif
-                                        %} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false" {% if page.url=="/about.html" %}
-                                        style="color:#fe5c24;font-weight:500;" {% endif %}>About</a>
+                                        page.url=="/documents.html" or page.url=="/reports.html" %}
+                                        style="color:#fe5c24;font-weight:500;" {% endif %} id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        {% if page.url=="/about.html" %} style="color:#fe5c24;font-weight:500;" {% endif
+                                        %}>About</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="{{ site.baseurl }}/about.html" {% if
                                             page.url=="/about.html" %} style="color:#fe5c24;font-weight:500;" {% endif
@@ -35,6 +36,9 @@
                                         <a class="dropdown-item" href="{{ site.baseurl }}/administration.html" {% if
                                             page.url=="/administration.html" %} style="color:#fe5c24;font-weight:500;"
                                             {% endif %}>Administration</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/reports.html" {% if
+                                            page.url=="/reports.html" %} style="color:#fe5c24;font-weight:500;" {%
+                                            endif %}>Reports</a>
                                         <a class="dropdown-item" href="{{ site.baseurl }}/reach_us.html" {% if
                                             page.url=="/reach_us.html" %} style="color:#fe5c24;font-weight:500;" {%
                                             endif %}>How to Reach</a>
