@@ -37,14 +37,14 @@
                                             page.url=="/administration.html" %} style="color:#fe5c24;font-weight:500;"
                                             {% endif %}>Administration</a>
                                         <a class="dropdown-item" href="{{ site.baseurl }}/reports.html" {% if
-                                            page.url=="/reports.html" %} style="color:#fe5c24;font-weight:500;" {%
-                                            endif %}>Reports</a>
+                                            page.url=="/reports.html" %} style="color:#fe5c24;font-weight:500;" {% endif
+                                            %}>Reports</a>
+                                        <a class="dropdown-item" href="{{ site.baseurl }}/campus" {% if
+                                            page.url=="{{ site.baseurl }}/campus" %}
+                                            style="color:#fe5c24;font-weight:500;" {% endif %}>Campus Services</a>
                                         <a class="dropdown-item" href="{{ site.baseurl }}/reach_us.html" {% if
                                             page.url=="/reach_us.html" %} style="color:#fe5c24;font-weight:500;" {%
                                             endif %}>How to Reach</a>
-                                        <a class="dropdown-item" href="{{ site.baseurl }}/transitcampus.html" {% if
-                                            page.url=="/transitcampus.html" %} style="color:#fe5c24;font-weight:500;" {%
-                                            endif %}>Transit Campus</a>
                                         <a class="dropdown-item" href="{{ site.baseurl }}/pr/pressrelease" {% if
                                             page.url=="/pr" %} style="color:#fe5c24;font-weight:500;" {% endif %}>Press
                                             Release</a>
@@ -107,4 +107,3 @@
         </div>
     </div>
 </header>
-<!-- Header part end-->
