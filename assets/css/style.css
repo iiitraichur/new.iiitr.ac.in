@@ -2185,7 +2185,7 @@ ul {
 /* line 4, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
 .main_menu .navbar-brand {
   padding-top: 0rem;
-  height: 67px;
+  height: 65px;
 }
 
 
@@ -2238,7 +2238,7 @@ ul {
 .main_menu .main-menu-item ul li .nav-link {
   color: #2f373d;
   font-size: 15px;
-  padding: 30px 18px;
+  padding: 30px 13px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
 }
