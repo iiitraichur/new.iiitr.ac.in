@@ -1,6 +1,6 @@
 ---
  layout: post	
- title: Natl Sports Day '21
+ title: National Sports Day '21
  img_1: 08-29-2021/1.webp
  categories: update
 ---
