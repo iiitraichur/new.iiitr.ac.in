@@ -37,9 +37,10 @@ title: "Home"
 <!-- banner part start-->
 <header class="cover_photo">
 	<div class="container h-100">
-
 		<div class="row h-100 align-items-center">
+
 			<div class="col-12 text-center">
+
 				<div class="home-landing-text">
 					<h1>
 						Indian Institute of Information Technology<br>
@@ -50,6 +51,7 @@ title: "Home"
 		</div>
 	</div>
 </header>
+
 <section class="section_padding">
 	<div class="container-fluid" style="text-align:center;">
 		<div class="row">
@@ -72,11 +74,13 @@ title: "Home"
 					<div class="index-news-cards-content">
 						<h3>{{ post.title }}</h3>
 						<h5 class="text-muted">{{post.date | date: "%d %b %Y"}}<br></h5>
-						{{ post.content }}
 					</div>
-					<a class="btn btn-xl hover-button" href="{{ post.url | absolute_url }}">
-						<h4>More</h4>
-					</a>
+					<h4>
+						<a style="color: blue;font-weight: 700;" href="{{ post.url | absolute_url }}">
+							More
+						</a>
+					</h4>
+					<br><br>
 				</div>
 			</div>
 
@@ -93,7 +97,7 @@ title: "Home"
 					<h3>Student Life</h3>
 					<img src="./assets/images/index_page/slider_3.jpg" alt="Students IIIT Raichur">
 					<h5><br>The pioneering batch.<br><br></h5>
-					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="students.html">
+					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="https://students.iiitr.ac.in/">
 						<h4>More</h4>
 					</a>
 				</div>
@@ -105,7 +109,7 @@ title: "Home"
 					<h5><br>The recruitment process for both teaching and non-teaching staff is going on under the
 						mentor
 						institute IIT Hyderabad.</h5>
-					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="careers.html">
+					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="careers">
 						<h4>More</h4>
 					</a>
 				</div>
