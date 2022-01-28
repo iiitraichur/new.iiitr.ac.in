@@ -2189,9 +2189,9 @@ ul {
 }
 
 
-@media (max-width: 991px){
+@media (max-width: 660px){
   .main_menu .navbar-brand{
-  height: 60px;
+  height: 50px;
   }
 }
 
