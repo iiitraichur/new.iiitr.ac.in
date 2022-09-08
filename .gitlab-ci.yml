@@ -1,21 +1,11 @@
 image: ruby:2.7
 pages:
-	script:
-		- gem install bundler
-		- bundle install
-		- bundle exec jekyll build -d public
-	artifacts:
-		paths:
-			- public
-	only:
-		- master
-workflows:
-	rules:
-		- if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-	script:
-		- gem install bundler
-		- bundle install
-		- bundle exec jekyll build -d test
-	artifacts:
-		paths:
-			- test
+  script:
+    - gem install bundler
+    - bundle install
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
