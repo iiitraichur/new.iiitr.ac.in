@@ -12,7 +12,7 @@ img: IIIT-Raichur-GEC-Campus.png
 <div class="ml-4">
 <ul style="list-style-type:disc; font-weight: 600;">
 <li>1st and blooming Placement Season at IIIT Raichur</li>
-<li>5 job offers, including 3 international offers (as of date)</li>
+<li>5 job offers, including 3 multinational company offers (as of date)</li>
 <li>Participating companies include Amazon, Infosys, Nagarro, MAQ Software, and Loyalty Juggernaut Inc.</li>
 <li>Phase-II will begin in January 2023</li>
 <li>IIT Hyderabad has been instrumental in mentoring the IIIT Raichur Students for all-round development</li>
@@ -20,7 +20,7 @@ img: IIIT-Raichur-GEC-Campus.png
 </div>
 <br />
 <div>
-<b>Hyderabad, October 19, 2022:</b> Indian Institute Information Technology, Raichur (IIIT Raichur/ IIITR)
+<b>Hyderabad, October 19, 2022:</b> Indian Institute of Information Technology, Raichur (IIIT Raichur/ IIITR)
 witnessed 5 job offers from 2 companies in the early stage of Phase-I of the Campus Placement 2022. The
 entire process was held online, with students attending coding tests and job interviews from the campus and
 dully proctored by the respective companies in coordination with the Training Placement Cell of IIIT Raichur.
@@ -38,7 +38,6 @@ that the measures being taken at IIITR will certainly fetch the appropriate drea
 initiatives taken in the last two years, like Semester-long Internships, have started yielding results, and we will
 continuously improvise on it.”
 </div>
-
 <br />
 <div>
 <strong>Conveying his commendation on the bright start of the Placement Season, Prof Harish Kumar Sardana,
