@@ -3,6 +3,7 @@ layout: post
 title: 7th International Day of Yoga celebrations at IIIT Raichur
 categories: pressrelease
 file: Press Release  7th International Day of Yoga celebrations at IIIT Raichur.pdf
+img: Yoga_Session.png
 ---
 
 <div>
