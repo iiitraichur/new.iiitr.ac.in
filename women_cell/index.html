@@ -1,0 +1,108 @@
+---
+layout: section
+title: 'Women Cell'
+main_title: 'Home'
+---
+
+<style>
+	/* Ripple effect */
+	.ripple {
+		background-position: center;
+		transition: 0.8s;
+		border-width: 2px !important;
+		margin: 2%;
+	}
+
+	.ripple:hover {
+		/* background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%; */
+		background-color: #1d1d27;
+		color: white;
+	}
+
+	.ripple > div {
+		padding: 20px;
+	}
+
+	.ripple h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.ripple p {
+		color: #007bff;
+	}
+
+	.ripple:hover h2 {
+		color: white;
+	}
+
+	.service-button {
+		background-color: hsl(0, 6%, 72%);
+		color: black;
+		position: absolute;
+	}
+
+	.service-button:hover {
+		background-color: #2c2f7f;
+		color: white;
+	}
+
+	@media only screen and (min-width: 600px) {
+		.ripple h2 {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.service-button {
+			background-color: hsl(0, 6%, 72%);
+			color: black;
+			position: center;
+			bottom: 15px;
+			left: 35%;
+			right: 35%;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		.ripple {
+			height: 100%;
+		}
+
+		.service-button {
+			background-color: hsl(0, 6%, 72%);
+			color: black;
+			position: center;
+			bottom: 15px;
+			left: 35%;
+			right: 35%;
+		}
+	}
+</style>
+
+<section class="section section_padding">
+	<div class="container text-center">
+		<div>
+			<h1>Women Cell</h1>
+			<hr style="border: 2px solid blue; width: 50px" />
+		</div>
+		<div>
+			<div class="card ripple border border-primary p-2">
+				<a
+					href="/women_cell/guidlines.pdf"
+					target="_blank">
+					<h2>GUIDELINES</h2>
+				</a>
+			</div>
+			<div class="card ripple border border-primary p-2">
+				<h2 class="text-capitalize">Contact us for any query or Complaint</h2>
+				<p>
+					<b>Dr. Alka</b><br />
+					(Faculty Coordinator of Women Cell)<br />
+					Assistant Professor, Department of Mathematics <br />
+					Email :
+					<a href="mailto:women-cell@iiitr.ac.in">women-cell@iiitr.ac.in</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
