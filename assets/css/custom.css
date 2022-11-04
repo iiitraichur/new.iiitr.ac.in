@@ -203,6 +203,13 @@
 .faculty-education h4 {
 	padding-top: 10px;
 }
+.faculty-sponsored-projects {
+	padding: 10px;
+}
+
+.faculty-sponsored-projects h4 {
+	padding-top: 10px;
+}
 
 /* =============== Home Page Faculty =====================*/
 /* .home-page-faculty-card{
