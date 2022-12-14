@@ -26,6 +26,19 @@ title: 'Home'
 		font-size: larger;
 	}
 
+	.bar_content {
+		color: white;
+		font-size: 24px;
+		display: block;
+		padding: 40px;
+		width: 100%;
+	}
+
+	.bar_content a {
+		color: orangered;
+		text-decoration: none;
+	}
+
 	@keyframes blinker {
 		50% {
 			opacity: 0;
@@ -35,6 +48,13 @@ title: 'Home'
 
 <!-- banner part start-->
 <header class="cover_photo">
+	<marquee
+		direction="left"
+		behavior="scroll"
+		class="bar_content">
+		Ph.D. Admissions are open. For more information about admission process
+		<a href="/admission/phd/">click here</a>
+	</marquee>
 	<div class="container h-100">
 		<div class="row h-100 align-items-center">
 			<div class="col-12 text-center">
