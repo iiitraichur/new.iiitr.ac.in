@@ -30,11 +30,18 @@ twitter_username:
 github_username:
 
 # Build settings
-theme: minima
+remote_theme: aterenin/minima-reboot
+# theme: minima
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      permalink: pretty
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
