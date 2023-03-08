@@ -1,21 +1,20 @@
 ---
 layout: section
-title: "News"
-main_title: "Home"
+title: 'News'
+main_title: 'Home'
 ---
+
 <!-- about part start-->
 <section class="full-width">
-
-	<section class="jumbotron jumbotron-fluid" style="background-color: white;">
+	<section
+		class="jumbotron jumbotron-fluid"
+		style="background-color: white">
 		<div class="full-width side-gap towers">
-
-			<div class="row" style="margin: 2rem auto">
-				{% assign count = 0 %}
-				{% assign update = site.categories['update'] %}
-				{% for post in update %}
-				{% if count == 6 %}
-				{% break %}
-				{% endif %}
+			<div
+				class="row"
+				style="margin: 2rem auto">
+				{% assign count = 0 %} {% assign update = site.categories['update'] %} {% for post
+				in update %} {% if count == 6 %} {% break %} {% endif %}
 
 				<div class="col-lg-6">
 					<div class="news-page-cards text-center">
@@ -25,29 +24,33 @@ main_title: "Home"
 								<h6 class="text-muted"><b>{{post.date | date: "%d %b %Y"}}</b></h6>
 								{{ post.content }}
 								<div>
-									<a class="news-page-cards-button" href="{{ post.url | absolute_url }}">
+									<a
+										class="news-page-cards-button"
+										href="{{ post.url | absolute_url }}">
 										More
 									</a>
 								</div>
 							</div>
 							<div class="col-lg-6">
-								<img class="d-block w-100 desk" src="./assets/images/news/{{post.img_1}}"
-									alt="{{ post.title }} | News | IIIT Raichur">
+								<img
+									class="d-block w-100 desk"
+									src="./assets/images/news/{{post.img_1}}"
+									alt="{{ post.title }} | News | IIIT Raichur" />
 							</div>
 						</div>
 					</div>
-
 				</div>
-				{% assign count = count | plus: 1 %}
-				{% endfor %}
+				{% assign count = count | plus: 1 %} {% endfor %}
 
 				<div class="col-lg-12 text-center">
-					<a class="btn btn-light btn-xl js-scroll-trigger shadow" href="./news-more.html">
+					<a
+						class="btn btn-light btn-xl js-scroll-trigger shadow"
+						href="/news-more.html">
 						<h4>News Archives</h4>
 					</a>
 				</div>
-
 			</div>
 		</div>
 	</section>
-</section><!-- about part start-->
+</section>
+<!-- about part start-->
